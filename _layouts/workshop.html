@@ -13,14 +13,14 @@ layout: default
   </header>
 
   <article>
+      <h3 class="motivation"><span class="font-weight-bold">Motivation</span></h3>
 
-    Over the past three years, diffusion models have established themselves as a new generative modelling paradigm.
-    Their empirical successes have broadened the applications of generative modelling to image, video, audio, 3D
-    synthesis and science applications. As diffusion models become more and more popular and are applied to extremely
-    diverse problems, it also becomes harder to track the key contributions in the field. This workshop aims to keep
-    track of the recent advances and set guidelines for future research. By bringing together practice, methodology and
-    theory actors we aim at identifying unexplored areas and pushing the frontier of diffusion model research.
-
+        Recent decades have witnessed rapid development of deep learning-based speech enhancement (SE) techniques, with impressive performance in matched conditions. However, most conventional speech enhancement approaches focus only on a limited range of conditions, such as single-channel, multi-channel, anechoic, and so on.
+        In many existing works, researchers tend to only train SE models on one or two common datasets, such as the VoiceBank+DEMAND and DNS datasets. The evaluation is often done only on simulated conditions that are similar to the training setting. Meanwhile, in earlier SE challenges such DNS series, the choice of training data was also often left to the participants. This led to the situation that models trained with a huge amount of private data were compared to models trained with a small public dataset. This greatly impedes understanding of the generalizability and robustness of SE methods comprehensively. In addition, the model design may be biased towards a specific limited condition if only a small amount of data is used. The resultant SE model may also have limited capacity to handle more complicated scenarios.
+        Apart from conventional discriminative methods, generative methods have also attracted much attention in recent years. They are good at handling different distortions with a single model [1-2] and tend to generalize better than discriminative methods [3]. However, their capability and universality have not yet been fully understood through a comprehensive benchmark.
+        Meanwhile, recent efforts [4] have shown the possibility of building a single system to handle various input formats, such as different sampling frequencies and numbers of microphones. However, there lacks a well-established benchmark covering a wide range of conditions, and no systematic comparison has been made between state-of-the-art (SOTA) discriminative and generative methods regarding their generalizability.
+        Existing speech enhancement challenges have fostered the development of speech enhancement models for specific conditions, such as denoising and dereverberation [5-9], speech restoration [9], packet loss concealment [11], acoustic echo cancellation [12-14], hearing aid [15-16], 3D speech enhancement [17-18], far-field multi-channel speech enhancement for video conferencing [19], and unsupervised domain adaptation for denoising [20]. These challenges have greatly enriched the corpora in speech enhancement studies. However, there still lacks a challenge that can benchmark the generalizability of speech enhancement systems in a wide range of conditions.
+        Similar issues can also be observed in other speech tasks such as automatic speech recognition (ASR), speech translation (ST), speaker verification (SV), and spoken language understanding (SLU). Among them, speech enhancement is particularly vulnerable to mismatches since it is heavily reliant on paired clean/noisy speech data to achieve strong performance. Unsupervised speech enhancement that does not require groundtruth clean speech has been proposed to address this issue, but often merely brings benefit in a final finetuning stage [21]. Therefore, we focus on speech enhancement in this challenge to address the aforementioned problems.
 
     <h3 class="post-title"><span class="font-weight-bold">Contact</span></h3>
     For any further question drop an email at
