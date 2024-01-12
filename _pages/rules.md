@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /submissions/
-title: New Page
+permalink: /rules/
+title: Rules
 description:  
 nav: true
 nav_order: 3
