@@ -7,15 +7,9 @@ nav: true
 nav_order: 3
 ---
 
-## Rules 
-
-# blah blah 
-
-## Submission Details
- blah blah 
 
 
 
 <h3 class="contact"><span class="font-weight-bold">Contact</span></h3>
-    For any further question drop an email at
-    <a href="mailto:urgent.challenge@gmail.com" target="_blank">urgent.challenge@gmail.com</a>.
+
+For any further question drop an email at [urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com.
