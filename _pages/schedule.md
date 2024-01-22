@@ -7,11 +7,13 @@ nav: true
 nav_order: 2
 ---
 
+Postponed since our proposal is not accepted by Interpeech.
+
 
 | **Date ( DD/MM/YY AoE )** |                            |
 |:-------------------------:|:---------------------------|
-|                           | **Start of the Challenge** | 
-|        10/01/2222         | **End of the Challenge**   |
+| Postponed since our proposal is not accepted by Interpeech. | **Start of the Challenge** | 
+|                 | **End of the Challenge**   |
 {: .table}
 {: .table-striped}
 
