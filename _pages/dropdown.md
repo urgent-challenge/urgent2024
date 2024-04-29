@@ -1,13 +1,12 @@
 ---
 layout: page
-title:
-nav: false
-nav_order:
+title: About Us
+nav: true
+nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Organizers
+      permalink: /organizers/
+    - title: Contact
+      permalink: /contact/
 ---

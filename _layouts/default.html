@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
+<script src="/urgent2024/assets/js/distillpub/template.v2.js"></script>
 <html lang="{{ site.lang }}">
 
   <!-- Head -->
@@ -20,8 +22,15 @@
       {{ content }}
     </div>
 
+    <d-appendix>
+      <d-footnote-list></d-footnote-list>
+      <d-citation-list></d-citation-list>
+    </d-appendix>
+
     <!-- Footer -->
     {%- include footer.html %}
+
+    <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}

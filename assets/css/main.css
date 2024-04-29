@@ -28,6 +28,8 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 /******************************************************************************* Styles for the base elements of the theme. */
 p, h1, h2, h3, h4, h5, h6, h7, em, div, li, span, strong { color: var(--global-text-color); }
 
+p {text-align: justify;}
+
 h6 { font-size: 1.0rem; }
 
 h7 { font-size: 0.85rem; }

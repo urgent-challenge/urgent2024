@@ -942,7 +942,7 @@ ${math}
       var cite = title_string(ent);
       cite += link_string(ent) + "<br>";
       if (ent.author) {
-        cite += author_string(ent, "${L}, ${I}", ", ", " and ");
+        cite += author_string(ent, "${F} ${L}", ", ", " and ");
         if (ent.year || ent.date) {
           cite += ", ";
         }
@@ -978,7 +978,7 @@ ${math}
       cite += link_string(ent);
       cite += "<br>";
 
-      var a_str = author_string(ent, "${I} ${L}", ", ") + ".";
+      var a_str = author_string(ent, "${F} ${L}", ", ") + ".";
       var v_str =
         venue_string(ent).trim() + " " + ent.year + ". " + doi_string(ent, true);
 
