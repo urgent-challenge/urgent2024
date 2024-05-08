@@ -68,18 +68,18 @@ Based on the increasing interest in the generalizability of speech enhancement m
 
 The task is to build **a single speech enhancement system** to adaptively handle input speech with different distortions (corresponding to different SE subtasks) and different input formats (e.g., sampling frequencies) in different acoustic environments (e.g., noise and reverberation).
 
-The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as synamic mixing to achieve the best generalizability. The data preparation scripts will be released soon in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2024_challenge/</a></d-footnote>.
+The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as synamic mixing to achieve the best generalizability. The data preparation scripts is released in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2024_challenge/</a></d-footnote>. Check the [`Data`](/urgent2024/data) tab for more information.
 
-We will provide baselines (both regression-based and generative) for the challenge. The alpha version with multi-task support will be released soon for early development. A better-tuned beta version will be available later on.
+We also provide baselines in the [ESPnet](https://github.com/espnet/espnet) toolkit to facilitate the system development. Check the [`Baseline`](/urgent2024/baseline) tab for more information.
 
-We will evaluate models with a variety of metrics to comprehensively understand the capacity of existing generative and discriminative methods. Tentative metrics include:
+We will evaluate enhanced audios with a variety of metrics to comprehensively understand the capacity of existing generative and discriminative methods. They include four different categories of metrics:
 
 1. non-intrusive metrics (e.g., DNSMOS, NISQA) for reference-free speech quality evaluation.
-2. intrusive metrics (e.g., PESQ, STOI, SDR, MCD, VISQOL) for objective speech quality evaluation.
-3. intrusive metrics (e.g., phone accuracy, Levenshtein phone distance or similarity) for language-independent, speaker-independent, and downstream task-independent evaluation of phonetic fidelity.
-4. downstream-task-dependent metrics (e.g., speaker similarity, WER) for evaluation of compatibility with different downstream tasks.
+2. intrusive metrics (e.g., PESQ, STOI, SDR, MCD) for objective speech quality evaluation.
+3. downstream-task-independent metrics (e.g., Levenshtein phonem similarity) for language-independent, speaker-independent, and task-independent evaluation.
+4. downstream-task-dependent metrics (e.g., speaker similarity, word accuracy or WAcc) for evaluation of compatibility with different downstream tasks.
 
-More details about the data and evaluation plan will be released soon.
+More details about the evaluation plan can be found in the [`Rules`](/urgent2024/rules) tab.
 
 ## Paper Submission
 

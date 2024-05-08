@@ -4455,7 +4455,7 @@ d-footnote-list a.footnote-backlink {
     }
 
     listen(element) {
-      // console.log(element)
+      // console.log(element);
       this.bindDivEvents(this);
       this.bindTriggerEvents(element);
       // this.style.display = "block";
@@ -4513,7 +4513,25 @@ d-footnote-list a.footnote-backlink {
     showAtNode(node) {
       // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
       const bbox = node.getBoundingClientRect();
-      this.show([node.offsetLeft + bbox.width, node.offsetTop + bbox.height]);
+      const offset = this.calcOffset(node);
+      this.show([offset.left + bbox.width, offset.top + bbox.height]);
+    }
+
+    calcOffset(elem) {
+      let x = elem.offsetLeft;
+      let y = elem.offsetTop;
+
+      // Traverse upwards until an `absolute` element is found or `elem`
+      // becomes null.
+      while (elem = elem.offsetParent) {
+        if (elem.style.position == 'absolute') break;
+        if (elem.offsetTop) {
+          x += elem.offsetLeft;
+          y += elem.offsetTop;
+        }
+      }
+
+      return { left: x, top: y };
     }
 
     hide() {
