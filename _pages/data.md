@@ -172,6 +172,8 @@ border-bottom: 1px solid #cccccc;
 </tbody>
 </table>
 
+> For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC.
+
 ### Pre-processing
 
 <img alt="pre-processing" src="/urgent2024/assets/img/preprocessing.png" style="max-width: 100%;"/>
@@ -224,5 +226,4 @@ The manifest mentioned above is a `tsv` file containing several columns (separat
 ### Code
 
 The data preparation and simulation scripts are available at [https://github.com/urgent-challenge/urgent2024_challenge](https://github.com/urgent-challenge/urgent2024_challenge).
-> For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC.
 

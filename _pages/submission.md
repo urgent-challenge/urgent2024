@@ -14,7 +14,7 @@ The submission system will be open from June 10, 2024, to September 20, 2024 (23
 
 * Each submission should be **a zip file** containing two parts:
     1. enhanced audios corresponding to the test set;
-    2. a Markdown (README.md) file containing the basic information about the submission (as listed below). The template can be found [here](https://github.com/urgent-challenge/urgent2024_challenge/blob/main/submission/README.md).
+    2. a Markdown (README.md) file containing the basic information about the submission (as listed below). The template can be found [here](/urgent2024/template).
         * team information (team name, affiliation, team mambers)
         * description of the training & validation data used for the submission
         * description of pre-trained models used for the submission (if applicable)
@@ -38,10 +38,12 @@ The submission system will be open from June 10, 2024, to September 20, 2024 (23
 * Each team can submit up to **2 submissions per day** during the challenge.
   * The third and later submissions will be ignored. The quota will be reset at 00:00 AoE every day.
   * No submission will be accepted after the deadline (23:59:59 AoE, Septermber 20, 2024).
-* The best submission will be selected for the final evaluation.
+* For each team, only the submission with the best leaderboard performance will be used for the final evaluation.
 
 
 > Submissions that fail to conform to the above requirements may be rejected.
+>
+> Should you encounter any problem during the submission, please feel free to [contact the organizers](mailto:urgent.challenge@gmail.com).
 
 ### Agreement
 

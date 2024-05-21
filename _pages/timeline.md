@@ -13,7 +13,7 @@ nav_order: 2
 |       June 10, 2024               | **Start of the challenge** |
 |       June 20, 2024               | Leaderboard (validation) opens  |
 |      August 19, 2024              | Release of test data       |
-|       June 20, 2024               | Leaderboard (test) opens   |
+|        Septermber 6, 2024         | Leaderboard (test) opens   |
 |    Septermber 20, 2024 (23:59:59) | **End of the challenge**   |
 |     October 21, 2024              | Notification of final results |
 {: .table}

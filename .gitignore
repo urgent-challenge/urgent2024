@@ -23,4 +23,5 @@ check_shellcheck*
 *.nfs*
 
 # page server related
+_site/
 Gemfile.lock

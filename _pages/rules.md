@@ -12,14 +12,19 @@ bibliography: rules.bib
 1. When generating the training and validation datasets, **only** the speech, nosie, and room impulse response (RIR) corpora listed in the [`Data`](/urgent2024/data) tab shall be used.
     * This is to ensure a fair comparison and proper understanding of various SE approaches.
     * There will be a grace period at the beginning of the challenge when participants can propose (how?) additional datasets to be included in the list. We (organizers) will reply to the requests and may update the list.
-    * Although the speech enhancement model should only be trained on the listed data, we allow the use of pre-trained foundation models such as [HuBERT](https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md), [WavLM](https://github.com/microsoft/unilm/blob/master/wavlm/README.md), [EnCodec](https://github.com/facebookresearch/encodec), and so on as long as
+    * Although the speech enhancement model should only be trained on the listed data, we allow the use of pre-trained foundation models such as [HuBERT](https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md), [WavLM](https://github.com/microsoft/unilm/blob/master/wavlm/README.md), [EnCodec](https://github.com/facebookresearch/encodec), [Llama](https://llama.meta.com/llama-downloads/), and so on as long as
         * they are publicly available before the challenge begins
-        * Note: their parameters can be fine-tuned on the listed data.
+        * and they are explicitly mentioned in the submitted system description.
+        * Note:
+            * Their parameters can be fine-tuned on the listed data.
+            * It is not allowed to fine-tune the pre-trained models on extra data other than the listed data.
 
-2. No registration is needed for participating this challenge. However, the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
+2. The test data should only be used for evaluation purposes. Techniques such as test-time adaptation, unsupervised domain adaptation, and self-training on the test data are not allowed for this challenge.
+
+3. No registration is needed for participating this challenge. However, the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
     * Only the team name will be shown in the leaderboard, while the affiliation and team members will be kept confidential.
 
-3. The following evaluation metrics will be calculated for evaluation.
+4. The following evaluation metrics will be calculated for evaluation.
     
     <style type="text/css">
     .tg  {border:none;border-collapse:collapse;border-color:#ccc;border-spacing:0;}
@@ -126,7 +131,7 @@ bibliography: rules.bib
     </tbody>
     </table><br/>
 
-4. The overall ranking will be determined via the following procedure:
+5. The overall ranking will be determined via the following procedure:
 
     1. Calculate the average score of each metric for each submission.
     2. Calculate the per-metric ranking based on the average score.
