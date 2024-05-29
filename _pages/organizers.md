@@ -16,6 +16,7 @@ nav_order: 9
 6. <a style="color: #2E67D3;" href="https://sites.google.com/view/shinjiwatanabe">Shinji Watanabe</a>, Carnegie Mellon University, USA
 7. <a style="color: #2E67D3;" href="https://www.tu-braunschweig.de/en/ifn/institute/team/sv/fingscheidt">Tim Fingscheidt</a>, Technische Universität Braunschweig, Germany
 8. <a style="color: #2E67D3;" href="https://nateanl.github.io">Zhaoheng Ni</a>, Meta, USA
+9. <a style="color: #2E67D3;" href="https://anuragkr90.github.io">Anurag Kumar</a>, Meta, USA
 
 ### Advisory members
 
