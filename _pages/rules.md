@@ -104,7 +104,7 @@ bibliography: rules.bib
     </tr>
     <tr>
         <td class="tg-rq3n" rowspan="2">Downstream-task-independent metrics</td>
-        <td nowrap class="tg-mfxt"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_speechbert_score.py">SpeechBERTScore</a> ↑<d-cite key="SpeechBERTScore-Saeki2024"/></td>
+        <td nowrap class="tg-mfxt"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_speechbert_score.py">SpeechBERTScore</a><d-footnote>Based on our preliminary investigation, we adopt the HuBERT-Base backend for calculating the SpeechBERTScore, which differs from its defalut backend (WavLM-Large).</d-footnote> ↑<d-cite key="SpeechBERTScore-Saeki2024"/></td>
         <td class="tg-rq3n">✔</td>
         <td class="tg-rq3n">16 kHz</td>
         <td class="tg-rq3n">[-1, 1]</td>

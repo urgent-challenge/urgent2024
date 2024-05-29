@@ -162,17 +162,19 @@ border-bottom: 1px solid #cccccc;
     <td>~60k samples</td>
     <td>CC BY 4.0</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td>Other RIRs simulated by participants</td>
     <td>-</td>
     <td>8~48</td>
     <td>-</td>
     <td>-</td>
-  </tr>
+  </tr> -->
 </tbody>
 </table>
 
 > For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC.
+>
+> We also allow participants to simulate their own RIRs using existing tools<d-footnote>For example, <a href="https://github.com/ehabets/RIR-Generator">RIR-Generator</a>, <a href="https://github.com/LCAV/pyroomacoustics">pyroomacoustics</a>, <a href="https://github.com/DavidDiazGuerra/gpuRIR">gpuRIR</a>,  and so on.</d-footnote> for generating the training data.
 
 ### Pre-processing
 

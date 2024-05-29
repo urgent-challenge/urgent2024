@@ -11,7 +11,7 @@ nav_order: 2
 |   **Date ( Anywhere on Earth )**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
 |       June 10, 2024               | **Start of the challenge** |
-|     June 10-17, 2024              | Grace Peroid for new dataset proposal from participants |
+|     June 10-August 10, 2024       | Grace Period for new dataset proposal from participants |
 |       June 20, 2024               | Leaderboard (validation) opens |
 |      August 19, 2024              | Release of non-blind test data |
 |      August 19, 2024              | Leaderboard (test) opens   |
