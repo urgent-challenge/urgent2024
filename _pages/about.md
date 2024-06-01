@@ -35,6 +35,9 @@ if isinstance(speech_mix, np.ndarray):
     speech_mix = torch.as_tensor(speech_mix)
 </d-code> -->
 
+## TL;DR
+
+URGENT 2024 is a speech enhancement challenge accepted by the **NeurIPS 2024 Competition Track**! We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
 
 ## Goal
 
@@ -49,7 +52,7 @@ Based on the increasing interest in the generalizability of speech enhancement m
 
 ## Task Introduction
 
-The task is to build **a single speech enhancement system** to adaptively handle input speech with different distortions (corresponding to different SE subtasks) and different input formats (e.g., sampling frequencies) in different acoustic environments (e.g., noise and reverberation).
+The task of this challenge is to build **a single speech enhancement system** to adaptively handle input speech with different distortions (corresponding to different SE subtasks) and different input formats (e.g., sampling frequencies) in different acoustic environments (e.g., noise and reverberation).
 
 The training data will consist of several public corpora of speech, noise, and RIRs. Only the specified set of data can be used during the challenge. We encourage participants to apply data augmentation techniques such as synamic mixing to achieve the best generalizability. The data preparation scripts is released in our GitHub repository<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/" target="_blank">https://github.com/urgent-challenge/urgent2024_challenge/</a></d-footnote>. Check the [`Data`](/urgent2024/data) tab for more information.
 
