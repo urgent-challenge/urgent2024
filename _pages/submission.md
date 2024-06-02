@@ -14,16 +14,16 @@ The submission system will be open from June 10, 2024, to September 20, 2024 (23
 
 * Each submission should be **a zip file** containing two parts:
     1. enhanced audios corresponding to the test set;
-    2. a Markdown (README.md) file containing the basic information about the submission (as listed below). The template can be found [here](/urgent2024/template).
+    2. a YAML (README.yaml) file containing the basic information about the submission (as listed below). The template can be found [here](/urgent2024/template).
         * team information (team name, affiliation, team mambers)
         * description of the training & validation data used for the submission
         * description of pre-trained models used for the submission (if applicable)
 * The zip file should be named as `{your_teamname}.zip`. Here, `{your_teamname}` should be replaced with your team name.
-* The zip file should only contain a single Markdown (README.md) file and a folder named `enhanced` that contains all the enhanced audio files. That is, the directory structure after executing `unzip {your_teamname}.zip` should be as follows:
+* The zip file should only contain a single YAML (README.yaml) file and a folder named `enhanced` that contains all the enhanced audio files. That is, the directory structure after executing `unzip {your_teamname}.zip` should be as follows:
 
 ```bash
 ./
-├── README.md
+├── README.yaml
 └── enhanced/
     ├── fileid_1.flac
     ├── fileid_2.flac

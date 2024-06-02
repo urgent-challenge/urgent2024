@@ -175,6 +175,8 @@ border-bottom: 1px solid #cccccc;
 > For participants who need access to the WSJ data, please reach out to the organizers ([urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com)) for a temporary license supported by LDC.
 >
 > We also allow participants to simulate their own RIRs using existing tools<d-footnote>For example, <a href="https://github.com/ehabets/RIR-Generator">RIR-Generator</a>, <a href="https://github.com/LCAV/pyroomacoustics">pyroomacoustics</a>, <a href="https://github.com/DavidDiazGuerra/gpuRIR">gpuRIR</a>,  and so on.</d-footnote> for generating the training data.
+> The participants can also propose publicly available real recorded RIRs to be included in the above data list during the grace period (See [`Timeline`](/urgent2024/timeline)).
+> Note: If participants used additional RIRs to train their model, the related information should be provided in the README.yaml file in the submission. Check the [template](/urgent2024/template) for more information.
 
 ### Pre-processing
 
@@ -187,7 +189,7 @@ The pre-processing procedure includes:
 2. A voice activity detection (VAD) algorithm<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_vad.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_vad.py</a></d-footnote> is further used to detect “bad” speech samples that are actually non-speech or mostly silence, which will be removed from the data.
 3. Finally, the non-intrusive DNSMOS scores (OVRL, SIG, BAK)<d-cite key="DNSMOS-Reddy2022"/><d-footnote><a href="https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/dnsmos_local.py">https://github.com/microsoft/DNS-Challenge/blob/master/DNSMOS/dnsmos_local.py</a></d-footnote> are calculated for each remaining speech sample. This allows us to filter out noisy and low-quality speech samples via thresholding each score<d-footnote><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_dnsmos.py">https://github.com/urgent-challenge/urgent2024_challenge/blob/main/utils/filter_via_dnsmos.py</a></d-footnote>.
 
-We finally curated a list of speech (~1300 hours) and noise (~250 hours) samples based on the above procedure, and they will be used for simulating the training and validation data in the challenge.
+We finally curated a list of speech sample (~1300 hours) and noise samples (~250 hours) based on the above procedure that will be used for simulating the training and validation data in the challenge.
 
 ### Simulation
 
@@ -221,7 +223,7 @@ The manifest mentioned above is a `tsv` file containing several columns (separat
 
 * The audios in `noisy_path`, `clean_path`, and (optional) `noise_path` are consistently scaled such that `noisy_path = clean_path + noise_path`.
 
-* However, the scale of the enhanced audio is not critical for the challenge, as the evaluation metrics are made insensitive to the scale.
+* However, the scale of the enhanced audio is not critical for the challenge, as the evaluation metrics are made largely insensitive to the scale.
 
 * For all different distortion types, the original sampling frequency of each clean speech sample is always preserved, i.e., the degraded speech sample also shares the same sampling frequency. For `bandwidth_limitation` augmentation, this means that the generated speech sample is resampled to the original sampling frequency `fs`.
 
