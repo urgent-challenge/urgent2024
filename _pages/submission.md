@@ -8,9 +8,11 @@ nav_order: 6
 ---
 
 
-The submission system will be open from June 10, 2024, to September 20, 2024 (23:59:59 AoE).
+The submission system will be open from June 20, 2024, to September 20, 2024 (23:59:59 AoE).
 
-### Submission format and requirements
+More information will be updated soon.
+
+<!-- ### Submission format and requirements
 
 * Each submission should be **a zip file** containing two parts:
     1. enhanced audios corresponding to the test set;
@@ -43,7 +45,7 @@ The submission system will be open from June 10, 2024, to September 20, 2024 (23
 
 > Submissions that fail to conform to the above requirements may be rejected.
 >
-> Should you encounter any problem during the submission, please feel free to [contact the organizers](mailto:urgent.challenge@gmail.com).
+> Should you encounter any problem during the submission, please feel free to [contact the organizers](mailto:urgent.challenge@gmail.com). -->
 
 ### Agreement
 

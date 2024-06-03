@@ -7,4 +7,6 @@ nav: true
 nav_order: 8
 ---
 
-### Some news
+### Latest Updates
+
+The latest updates will be listed here. 

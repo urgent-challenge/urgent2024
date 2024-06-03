@@ -67,6 +67,10 @@ We will evaluate enhanced audios with a variety of metrics to comprehensively un
 
 More details about the evaluation plan can be found in the [`Rules`](/urgent2024/rules) tab.
 
+## Communication
+
+[Join our Slack workspace](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
+
 <!-- ## Paper Submission
 
 Participants may feel free to submit their system description paper to any conference. -->

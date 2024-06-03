@@ -21,7 +21,7 @@ bibliography: rules.bib
 
 2. The test data should only be used for evaluation purposes. Techniques such as test-time adaptation, unsupervised domain adaptation, and self-training on the test data are not allowed for this challenge.
 
-3. Registration is required to submit results to the challenge (Check the [`Leaderboard`] tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
+3. Registration is required to submit results to the challenge (Check the [`Leaderboard`](/urgent2024/leaderboard) tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
     * Only the team name will be shown in the leaderboard, while the affiliation and team members will be kept confidential.<br/><br/>
 
 4. The following evaluation metrics will be calculated for evaluation.
@@ -140,7 +140,30 @@ bibliography: rules.bib
     2. Calculate the per-metric ranking based on the average score.
        * We adopt the standard competition ranking ("1224" ranking)<d-footnote><a href="https://en.wikipedia.org/wiki/Ranking#Standard_competition_ranking_(%221224%22_ranking)">https://en.wikipedia.org/wiki/Ranking#Standard_competition_ranking_(&quot;1224&quot;_ranking)</a></d-footnote> strategy for handling ties.
     3. Calculate the `per-category ranking` by averaging the rankings within each category.
-    4. Calculate the overall ranking by averaging the `per-category rankings`.
+    4. Calculate the overall ranking by averaging the `per-category rankings`.<br/><br/>
+
+    ```python
+    # Step 1: Calculate the average score of each metric
+    scores = {}
+    for submission in all_submissions:
+      scores[submission] = {}
+      for category in metric_categories:
+        for metric in category:
+          scores[submission][metric] = mean([metric(each_sample) for each_sample in submission])
+
+    # Step 2: Calculate the per-metric ranking based on the average score
+    rank_per_metric = {}
+    rank_per_category = {}
+    for category in metric_categories:
+      for metric in category:
+        rank_per_metric[metric] = get_ranking([scores[submission][metric] for submission in all_submissions])
+
+      # Step 3: Calculate the `per-category ranking` by averaging the rankings within each category
+      rank_per_category[category] = get_ranking([rank_per_metric[metric] for metric in category])
+
+    # Step 4: Calculate the overall ranking by averaging the `per-category rankings`
+    rank_overall = get_ranking([rank_per_category[category] for category in metric_categories])
+    ```
 
     > Note: Only <u>the original test data</u>, <u>the best baseline system</u>, and <u>participant submissions</u> are taken into account in the ranking procedure.
 
