@@ -35,9 +35,9 @@ if isinstance(speech_mix, np.ndarray):
     speech_mix = torch.as_tensor(speech_mix)
 </d-code> -->
 
-## URGENT 2024 Challenge: Universality, Robustness, and Generalizability for EnhancemeNT
+## URGENT 2024 Challenge
 
-URGENT 2024 is a speech enhancement challenge accepted by the **NeurIPS 2024 Competition Track**. We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
+URGENT 2024 (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge accepted by the **NeurIPS 2024 Competition Track**. We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
 
 ## Goal
 
