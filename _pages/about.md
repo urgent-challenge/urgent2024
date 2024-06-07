@@ -71,6 +71,10 @@ More details about the evaluation plan can be found in the [`Rules`](/urgent2024
 
 [Join our Slack workspace](https://join.slack.com/t/urgentchallenge/shared_invite/zt-2jy2stg7q-79AGeAY0CpKHRl7r4X0e6g) for real-time communication.
 
+## Workshop
+
+Top-ranking teams will be invited to a dedicated workshop in the NeurIPS 2024 conference (December 8 - December 12, 2024). More information will be provided after the challenge is completed.
+
 <!-- ## Paper Submission
 
 Participants may feel free to submit their system description paper to any conference. -->
