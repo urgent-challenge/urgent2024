@@ -32,8 +32,12 @@ We provide offical baselines and the corresponding recipe ([`egs2/urgent24/enh1`
     <br/><span>For explanation of the arugments in `./run.sh`, please refer to [`egs2/TEMPLATE/enh1/enh.sh`](https://github.com/espnet/espnet/blob/master/egs2/TEMPLATE/enh1/enh.sh).</span>
     <d-code block language="bash">
 cd &lt;espnet-path&gt;/egs2/urgent24/enh1
+<br/>
 # data preparation (this will clone the challenge repository)
-./run.sh --stage 1 --stop-stage 5 --nj 8
+./run.sh --stage 1 --stop-stage 1
+mkdir -p dump
+cp -r data dump/raw
+./run.sh --stage 5 --stop-stage 5 --nj 8
 <br/>
 # training
 ./run.sh --stage 6 --stop-stage 6 --ngpu 4 --enh_config conf/tuning/&lt;your-favorite-config.yaml&gt;
