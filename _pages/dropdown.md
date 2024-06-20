@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 nav: true
-nav_order: 9
+nav_order: 10
 dropdown: true
 children: 
     - title: Organizers
