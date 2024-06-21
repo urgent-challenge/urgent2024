@@ -11,7 +11,7 @@ bibliography: data.bib
 
 ### Updates
 
-❗️❗️[2024-06-20] We have released the official (complete) validation dataset. You can download it from [Google Drive](https://drive.google.com/file/d/11D_3-Y1Iugj5jsUvlnaPLxdOSugV9TER/view?usp=sharing).
+❗️❗️**[2024-06-20]** We have released the official (complete) validation dataset. You can download it from [Google Drive](https://drive.google.com/file/d/11D_3-Y1Iugj5jsUvlnaPLxdOSugV9TER/view?usp=sharing).
 > Note that this complete validation dataset is intended for assisting the development of challenge systems as well as for a fair comparison. The official validation leaderboard will only use a small portion<d-footnote>This subset can be downloaded from https://urgent-challenge.com/competitions/5#participate-get_data.</d-footnote> of this dataset for evaluation.
 
 ### Data description
