@@ -493,7 +493,7 @@ In each data file, the data format follows the <a href="https://kaldi-asr.org/do
 
 # Data format (Cont'd)
 
-To manually generate data files for an audio directory `audios`, you could run the following command (assuming all file names are unique):
+To manually generate data files for an audio directory `audios`, you could run the following commands (assuming all file names are unique):
 ```bash
 mkdir -p dump/raw/<subset-name>
 find audios/ -iname '*.flac' | awk -F'[/.]' '{print($(NF-1)" "$0)}' | \
@@ -568,7 +568,7 @@ name: model_definition
 
 # Model definition
 
-All speech enhancement model generally share the same template defined in <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/espnet_model.py" style="text-decoration:none;">`espnet2.enh.espnet_model.ESPnetEnhancementModel`</a>, which consists of three modules: <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/encoder" style="text-decoration:none">encoder</a> → <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/separator" style="text-decoration:none">separator</a> → <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/decoder" style="text-decoration:none">decoder</a>.
+All speech enhancement models generally share the same template defined in <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/espnet_model.py" style="text-decoration:none;">`espnet2.enh.espnet_model.ESPnetEnhancementModel`</a>, which consists of three modules: <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/encoder" style="text-decoration:none">encoder</a> → <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/separator" style="text-decoration:none">separator</a> → <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/decoder" style="text-decoration:none">decoder</a>.
 
 The main enhancement function is achieved by the separator module, which can be of various architectures, e.g., <a href="https://github.com/espnet/espnet/tree/master/espnet2/enh/separator/bsrnn_separator.py" style="text-decoration:none;">BSRNN</a>, <a href="https://github.com/espnet/espnet/blob/master/espnet2/enh/separator/tfgridnetv3_separator.py" style="text-decoration:none;">TF-GridNet</a>, and so on.
 
