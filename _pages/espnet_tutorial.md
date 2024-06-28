@@ -559,7 +559,7 @@ model = SeparateSpeech(
 )
 <br/>
 audio, fs = sf.read("/path/to/noisy/utt1.flac")
-enhanced = model(audio, fs=fs)[0]
+enhanced = model(audio[None, :], fs=fs)[0]
 </d-code>
 
 ---
