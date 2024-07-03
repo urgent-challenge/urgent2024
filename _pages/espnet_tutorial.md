@@ -504,14 +504,14 @@ find audios/ -iname '*.flac' | awk -F'[/.]' '{print($(NF-1)" "$(NF-1))}' | \
     sort -u > dump/raw/<subset-name>/spk2utt
 python -c '
 import soundfile as sf
-with open("dump/raw/<subset-name>/utt2fs, "w") as f:
-    with open("dump/raw/<subset-name>/utt2category, "w") as f:
-        with open("dump/raw/<subset-name>/wav.scp", "r") as f:
-            for line in f:
+with open("dump/raw/<subset-name>/utt2fs", "w") as f1:
+    with open("dump/raw/<subset-name>/utt2category", "w") as f2:
+        with open("dump/raw/<subset-name>/wav.scp", "r") as f3:
+            for line in f3:
                 uid, path = line.strip().split(maxsplit=1)
                 info = sf.info(path)
-                f.write(f"{uid} {info.samplerate}\n")
-                f.write(f"{uid} {info.channels}ch_{info.samplerate}Hz\n")
+                f1.write(f"{uid} {info.samplerate}\n")
+                f2.write(f"{uid} {info.channels}ch_{info.samplerate}Hz\n")
 '
 ```
 
