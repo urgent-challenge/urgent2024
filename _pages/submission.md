@@ -33,6 +33,7 @@ The submission system is open from June 20, 2024, to September 20, 2024 (23:59:5
 * Please encode all audio files in the 16-bit [**FLAC**](https://xiph.org/flac/) format to reduce the file size (< 300 MB).
     * The audio files should be encoded in mono-channel with its original sampling frequency.
     * All audio files should have the same named as the original audio files in the provided subset to be tested.
+* Be careful not to include hidden directories such as `__MACOSX/` which may cause evaluation failure.
 <!-- * The submission should be directly sent to the organizers via email at [urgent.challenge@gmail.com](mailto:urgent.challenge@gmail.com). -->
   <!-- * The subject of the email should be `URGENT2024 Submission from team {your_teamname}`. -->
 * The submission should be done via our [official leaderboard website](https://urgent-challenge.com/):
