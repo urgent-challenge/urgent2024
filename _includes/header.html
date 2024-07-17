@@ -30,18 +30,25 @@
       
         // Initialize notifications from cookies
         if (cookiesEnabled) {
-            $(".notification").each(function() {
-              let that = this;
-              if (getCookie(`${this.id}`) != latestCode) {
-                this.classList.add("show");
-              } else {
-                this.classList.remove("show");
+          $(".nav-item .notification").each(function() {
+            let that = this;
+            if (getCookie(`${this.id}`) != latestCode) {
+              this.classList.add("show");
+              $("#notif-navbar-toggler")[0].classList.add("show");
+            } else {
+              this.classList.remove("show");
+              if ($(".nav-item .notification.show").length === 0) {
+                $("#notif-navbar-toggler")[0].classList.remove("show");
               }
+            }
 
-              $(this.parentElement.getElementsByTagName("a")[0]).on("click", function() {
-                that.classList.remove("show");
-                setCookie(`${that.id}`, latestCode, 3650);
-              });
+            $(this.parentElement.getElementsByTagName("a")[0]).on("click", function() {
+              setCookie(`${that.id}`, latestCode, 3650);
+              that.classList.remove("show");
+              if ($(".nav-item .notification.show").length === 0) {
+                $("#notif-navbar-toggler")[0].classList.remove("show");
+              }
+            });
           });
        }
       });
@@ -75,7 +82,8 @@
           </div>
           {% endif %}
           <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler collapsed ml-auto position-relative" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="notification" id="notif-navbar-toggler"></span>
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar top-bar"></span>
             <span class="icon-bar middle-bar"></span>
