@@ -41,6 +41,7 @@ The submission system is open from June 20, 2024, to September 20, 2024 (23:59:5
   * Each team shall only register **once**. Multiple registrations from different members in one team are not allowed.
 * Each team can submit up to **2 submissions per day** during the challenge.
   * The third and later submissions will be ignored. The quota will be reset at 00:00 every day.
+  * Failed submissions are not taken into account when counting the submissions per day.
   * No submission will be accepted after the deadline (Septermber 20, 2024).
 * For each team, only the submission with the best leaderboard performance will be used for the final evaluation.
 
