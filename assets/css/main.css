@@ -338,3 +338,18 @@ d-appendix a, d-appendix a.footnote-backlink { color: var(--global-distill-app-c
 d-appendix a:hover, d-appendix a.footnote-backlink:hover { color: var(--global-hover-color) !important; }
 
 /*# sourceMappingURL=main.css.map */
+
+.notification {
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    right: -1px;
+    display: none;
+}
+
+.notification.show {
+    display: inline-block;
+}

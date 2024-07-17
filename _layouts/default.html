@@ -31,7 +31,9 @@
     <!-- Footer -->
     {%- include footer.html %}
 
+    {%- if page.bibliography -%}
     <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+    {%- endif -%}
 
     <!-- JavaScripts -->
     {% include scripts/bootstrap.html %}
