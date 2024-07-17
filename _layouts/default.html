@@ -15,6 +15,7 @@
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <!-- Header -->
+    {% include scripts/jquery.html %}
     {%- include header.html %}
 
     <!-- Content -->
@@ -33,7 +34,6 @@
     <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
     <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
     {% include scripts/masonry.html %}
     {% include scripts/misc.html %}

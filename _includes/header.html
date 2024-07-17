@@ -1,3 +1,51 @@
+    <script type="text/javascript">
+      $(function() {
+        const latestCode = '20240717';
+        const cookiesEnabled = navigator.cookieEnabled;
+      
+        // Function to get cookie value
+        function getCookie(name) {
+          let cookieArr = document.cookie.split(";");
+          for (let i = 0; i < cookieArr.length; i++) {
+            let cookiePair = cookieArr[i].split("=");
+            if (name == cookiePair[0].trim()) {
+                return decodeURIComponent(cookiePair[1]);
+            }
+          }
+          return null;
+        }
+      
+        // Function to set cookie
+        function setCookie(name, value, days) {
+          if (cookiesEnabled) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+          }
+        }
+      
+        // Initialize notifications from cookies
+        if (cookiesEnabled) {
+            $(".notification").each(function() {
+              let that = this;
+              if (getCookie(`${this.id}`) != latestCode) {
+                this.classList.add("show");
+              } else {
+                this.classList.remove("show");
+              }
+
+              $(this.parentElement.getElementsByTagName("a")[0]).on("click", function() {
+                that.classList.remove("show");
+                setCookie(`${that.id}`, latestCode, 3650);
+              });
+          });
+       }
+      });
+    </script>
 
     <header>
 
@@ -84,7 +132,10 @@
                 </div>
               </li>
               {%- else %}
-              <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+              <li class="nav-item position-relative {% if page.title == p.title %}active{% endif %}">
+                {%- if p.notification -%}
+                <span class="notification" id="notif-tab-{{ p.title }}"></span>
+                {%- endif -%}
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
