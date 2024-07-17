@@ -7,6 +7,8 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-07-17]** We have updated the [`Rules`](/urgent2024/rules) tab to mention that there are no latency or causality constraints in this challenge.
+
 * **[2024-07-03]** We have updated the TF-GridNet baseline checkpoint in-place that has the same performance as in the leaderboard.
 
 * **[2024-06-28]** We have provided an [URL](https://huggingface.co/wyz/tfgridnet_for_urgent24) to the TF-GridNet baseline checkpoint in the [`Baseline`](/urgent2024/baseline) tab.

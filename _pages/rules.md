@@ -21,10 +21,12 @@ bibliography: rules.bib
 
 2. The test data should only be used for evaluation purposes. Techniques such as test-time adaptation, unsupervised domain adaptation, and self-training on the test data are not allowed for this challenge.
 
-3. Registration is required to submit results to the challenge (Check the [`Leaderboard`](/urgent2024/leaderboard) tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
+3. There is no constraint on the latency or causality of the developed system in this challenge. Any type of model can be used as long as they conform to the other rules as listed in this page.
+
+4. Registration is required to submit results to the challenge (Check the [`Leaderboard`](/urgent2024/leaderboard) tab for more information). Note that the team information (including affiliation, team name, and team members) should be provided when submitting the results. For detailed submission requirements, please check the [`Submission`](/urgent2024/submission) tab.
     * Only the team name will be shown in the leaderboard, while the affiliation and team members will be kept confidential.<br/><br/>
 
-4. The following evaluation metrics will be calculated for evaluation.
+5. The following evaluation metrics will be calculated for evaluation.
     
     <style type="text/css">
     .tg  {border:none;border-collapse:collapse;border-color:#ccc;border-spacing:0;}
@@ -134,7 +136,7 @@ bibliography: rules.bib
     > 1. Note that for the final ranking on the blind test data, further metrics (such as POLQA<d-footnote><a href="http://www.polqa.info">http://www.polqa.info</a></d-footnote> and MOS) might be used, operating either at 8 kHz, at 16 kHz, or at 48 kHz SF.
     > 2. For real recorded test samples that do not have a strictly matched reference signal, part of the above metrics will be used.
 
-5. The overall ranking will be determined via the following procedure:
+6. The overall ranking will be determined via the following procedure:
 
     1. Calculate the average score of each metric for each submission.
     2. Calculate the per-metric ranking based on the average score.
