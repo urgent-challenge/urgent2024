@@ -9,7 +9,7 @@ nav_order: 10
 
 ### Core Members
 1. <a style="color: #2E67D3;" href="https://sites.google.com/view/wangyou-zhang">Wangyou Zhang</a>, Shanghai Jiao Tong University, China
-2. <a style="color: #2E67D3;" href="http://www.robinscheibler.org">Robin Scheibler</a>, LY Corp., Japan
+2. <a style="color: #2E67D3;" href="http://www.robinscheibler.org">Robin Scheibler</a>, Google DeepMind, Japan
 3. <a style="color: #2E67D3;" href="https://github.com/popcornell">Samuele Cornell</a>, Carnegie Mellon University, USA
 4. <a style="color: #2E67D3;" href="">Chenda Li</a>, Shanghai Jiao Tong University, China
 5. <a style="color: #2E67D3;" href="https://kohei0209.github.io">Kohei Saijo</a>, Waseda University, Japan
