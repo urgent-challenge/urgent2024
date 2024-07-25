@@ -26,6 +26,8 @@ During training and inference, the processing of different SFs is supported for 
 
 We provide offical baselines and the corresponding recipe ([`egs2/urgent24/enh1`](https://github.com/espnet/espnet/tree/master/egs2/urgent24/enh1)) in the [ESPnet](https://github.com/espnet/espnet) toolkit.
 
+> To install the ESPnet toolkit for model training, please follow the instructions at https://espnet.github.io/espnet/installation.html.
+>
 > You can check [“A quick tutorial on how to use ESPnet”](/urgent2024/espnet_tutorial) to have a quick overview on how to use ESPnet for speech enhancement.
 
   * For the basic usage of this toolkit, please refer to [egs2/TEMPLATE/enh1/README.md](https://github.com/espnet/espnet/blob/master/egs2/TEMPLATE/enh1/README.md).
