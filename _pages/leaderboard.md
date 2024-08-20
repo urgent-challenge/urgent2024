@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-The validation leaderboard is now live at [https://urgent-challenge.com](https://urgent-challenge.com/).
+The non-blind test leaderboard is now live at [https://urgent-challenge.com](https://urgent-challenge.com/).
 
 1. To make submissions to the leaderboard, you will need to sign up first with your email address. A verification email will be sent to that address. Please click the link in the email to activate your account.
 
@@ -17,7 +17,7 @@ The validation leaderboard is now live at [https://urgent-challenge.com](https:/
 
 4. We (organizers) will receive a notification after you submit the form and we will approve your participation.
 
-5. Finally, you can download the validation subset from the `Participate → Get Data` tab and start to make submissions in the `Participate → Submit / View Results` tab.
+5. Then you can download the test set from the `Participate → Get Data` tab and start to make submissions in the `Participate → Submit / View Results` tab.
 > It usually takes ~1 hour to finish the evaluation for each submission. You can click the `Refresh status` to check the evaluation status in the `Participate → Submit / View Results` tab.
 
 ### Note
