@@ -19,6 +19,7 @@ nav_order: 10
 9. <a style="color: #2E67D3;" href="https://anuragkr90.github.io">Anurag Kumar</a>, Meta, USA
 10. <a style="color: #2E67D3;" href="https://www.tu-braunschweig.de/en/ifn/institute/dept/sv/sach">Marvin Sach</a>, Technische Universität Braunschweig, Germany
 11. <a style="color: #2E67D3;" href="https://scholar.google.com/citations?user=aTUq3f4AAAAJ&hl=en">Wei Wang</a>, Shanghai Jiao Tong University, China
+12. <a style="color: #2E67D3;" href="https://www.tu-braunschweig.de/en/ifn/institute/dept/sv/translate-to-english-yihui-fu-m-eng">Yihui Fu</a>, Technische Universität Braunschweig, Germany
 
 ### Advisory members
 
