@@ -11,6 +11,19 @@ bibliography: data.bib
 
 ### Updates
 
+❗️❗️**[2024-09-19]** We have released the official blind test dataset. This is the dataset that will be used for the final ranking. You can download it from [Google Drive](https://drive.google.com/file/d/1qBTHgII6o57tmO8GPIunqZVtZhAu0M__/view?usp=sharing).
+> Note that unlike the non-blind test dataset, this dataset contains both simulated audios and real recordings<d-footnote>Their identities won't be revealed.</d-footnote>. The former contains clean reference signals while the latter only has reference transcripts.
+>
+> So we will only calculate **DNSMOS**, **NISQA**, and **WAcc** metrics for the real recordings.
+> For simulated data, all objective metrics listed in the [Rules](/urgent2024/rules) tab will be calculated.
+>
+> After the leaderboard blind test phase ends (no further submissions accepted), we will additionally
+>
+>   1. calculate the **POLQA** objective metric for the best submission of each team and insert it into the leaderboard as a part of the `Intrusive SE metric` category.
+>   2. obtain the **MOS** subjective score for the best submission of each team via crowd-sourcing based on the ITU-T P.808 standard<d-footnote>Due to our limited resource, we will subsample a fixed 300-sample subset from the full 1000-sample blind test set and use that for MOS evaluation of all teams' submissions. We will make sure the subset preserves as similar as possible the ranking structure of all teams as in the full blind test set. The utterance IDs of the subset will be released.</d-footnote>. This score will be counted as a fifth category (`Subjective SE metric`) in addition to the four categories defined in the [Rules](/urgent2024/rules) tab.
+>
+> The final ranking will be obtained using the same methodology as defined in the [Rules](/urgent2024/rules) tab, but based on the five categories of metrics.
+
 ❗️❗️**[2024-08-20]** We have released the official non-blind test dataset. You can download it from [Google Drive](https://drive.google.com/file/d/1Bcy7vtsZF5kzwrkklQwj6Um4AMlaUHe2/view?usp=sharing).
 
 ❗️❗️**[2024-08-20]** We have released the labels for the official validation dataset. You can download it from [Google Drive](https://drive.google.com/file/d/1qYaQKZtvGeRHaoFaeiaaKq5Akvbd2g-9/view?usp=sharing).

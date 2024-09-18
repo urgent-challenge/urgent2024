@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-The non-blind test leaderboard is now live at [https://urgent-challenge.com](https://urgent-challenge.com/).
+The blind test leaderboard is now live at [https://urgent-challenge.com](https://urgent-challenge.com/).
 
 1. To make submissions to the leaderboard, you will need to sign up first with your email address. A verification email will be sent to that address. Please click the link in the email to activate your account.
 
