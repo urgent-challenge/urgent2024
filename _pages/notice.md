@@ -8,9 +8,9 @@ nav: true
 nav_order: 9
 ---
 
-* **[20204-09-19]** We have released the `blind test set` for the final-phase evaluation. Please visit the [`Data`](/urgent2024/data) tab for more information.
+* **[2024-09-19]** We have released the `blind test set` for the final-phase evaluation. Please visit the [`Data`](/urgent2024/data) tab for more information.
 
-* **[20204-08-20]** We have released the `non-blind test set` for the second-phase evaluation. Please visit the [`Data`](/urgent2024/data) tab for more information.
+* **[2024-08-20]** We have released the `non-blind test set` for the second-phase evaluation. Please visit the [`Data`](/urgent2024/data) tab for more information.
 
 * **[2024-07-17]** We have updated the [`Rules`](/urgent2024/rules) tab to mention that there are no latency or causality constraints in this challenge.
 
