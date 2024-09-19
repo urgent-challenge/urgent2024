@@ -58,7 +58,7 @@ The training data will consist of several public corpora of speech, noise, and R
 
 We also provide baselines in the [ESPnet](https://github.com/espnet/espnet) toolkit to facilitate the system development. Check the [`Baseline`](/urgent2024/baseline) tab for more information.
 
-We will evaluate enhanced audios with a variety of metrics to comprehensively understand the capacity of existing generative and discriminative methods. They include four different categories of metrics:
+We will evaluate enhanced audios with a variety of metrics to comprehensively understand the capacity of existing generative and discriminative methods. They include four different categories of metrics<d-footnote>An additional category (subjective SE metrics) will be added for the final blind test phase for evaluating the MOS score.</d-footnote>:
 
 1. non-intrusive metrics (e.g., DNSMOS, NISQA) for reference-free speech quality evaluation.
 2. intrusive metrics (e.g., PESQ, STOI, SDR, MCD) for objective speech quality evaluation.
@@ -73,7 +73,7 @@ More details about the evaluation plan can be found in the [`Rules`](/urgent2024
 
 ## Workshop
 
-Top-ranking teams will be invited to a dedicated workshop in the NeurIPS 2024 conference (December 8 - December 12, 2024). More information will be provided after the challenge is completed.
+Top-ranking teams will be invited to a dedicated workshop in the NeurIPS 2024 conference (December 14 or December 15, 2024). More information will be provided after the challenge is completed.
 
 <!-- ## Paper Submission
 
