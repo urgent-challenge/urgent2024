@@ -29,6 +29,7 @@ In the leaderboard, there are two official entries:
 ### How to read the leaderboard?
 
   * Each row represents the best submission from one user (team).
-  * There are four categories of metrics for each submission: non-intrusive SE metrics, intrusive SE metrics, downstream-task-independent metrics, and downstream-task-dependent metrics. Each category includes several metrics.
+  * For all evaluation phases, there are four categories of metrics for each submission: non-intrusive SE metrics, intrusive SE metrics, downstream-task-independent metrics, and downstream-task-dependent metrics. Each category includes several metrics.
       * For each metric cell, the first number represents the metric value, and the second number in parentheses represents the rank of this metric among all submissions.
+      * For the final blind test phase, an additional category (`Subjective SE metrics`) will be added to evaluate the MOS score. See [`Data`](/urgent2024/data) for more information.
   * The last column (overall ranking score) represents the final score used for ranking all submissions. It is calculated following the rules defined in the [`Rules`](/urgent2024/rules) tab.
