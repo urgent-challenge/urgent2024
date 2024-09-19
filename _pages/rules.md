@@ -74,7 +74,13 @@ bibliography: rules.bib
         <td class="tg-xwyw">[1, 5]</td>
     </tr>
     <tr>
-        <td class="tg-kyy7" rowspan="5">Intrusive SE metrics</td>
+        <td class="tg-kyy7" rowspan="6">Intrusive SE metrics</td>
+        <td class="tg-d459"><a href="http://www.polqa.info" style="color:#e97c36;">POLQA</a><d-footnote>This metric will only be used for evaluation of the final blind test set.</d-footnote> ↑</td>
+        <td class="tg-kyy7">✔</td>
+        <td class="tg-kyy7"><span style="font-weight:400;font-style:normal;text-decoration:none">8~48 kHz</span></td>
+        <td class="tg-kyy7"><span style="font-weight:400;font-style:normal;text-decoration:none">[1, 5]</span></td>
+    </tr>
+    <tr>
         <td class="tg-d459"><a href="https://github.com/urgent-challenge/urgent2024_challenge/blob/main/evaluation_metrics/calculate_intrusive_se_metrics.py">PESQ</a> ↑<d-cite key="PESQ-Rix2001"/></td>
         <td class="tg-kyy7">✔</td>
         <td class="tg-kyy7"><span style="font-weight:400;font-style:normal;text-decoration:none">{8, 16} kHz</span></td>
@@ -130,11 +136,17 @@ bibliography: rules.bib
         <td class="tg-kyy7">16 kHz</td>
         <td class="tg-kyy7">(-∞, 1]</td>
     </tr>
+    <tr>
+        <td class="tg-r6l2" rowspan="1">Subjective SE metrics</td>
+        <td class="tg-rt8k"><a href="https://github.com/microsoft/P.808" style="color:#e97c36;">MOS</a><d-footnote>This metric will only be used for evaluation of the final blind test set.</d-footnote> ↑</td>
+        <td class="tg-51oy">❌</td>
+        <td class="tg-51oy">Any</td>
+        <td class="tg-51oy">[1, 5]</td>
+    </tr>
     </tbody>
     </table><br/>
 
-    > 1. Note that for the final ranking on the blind test data, further metrics (such as POLQA<d-footnote><a href="http://www.polqa.info">http://www.polqa.info</a></d-footnote> and MOS) might be used, operating either at 8 kHz, at 16 kHz, or at 48 kHz SF.
-    > 2. For real recorded test samples that do not have a strictly matched reference signal, part of the above metrics will be used.
+    > **Note:** For real recorded test samples that do not have a strictly matched reference signal, part of the above metrics will be used.
 
 6. The overall ranking will be determined via the following procedure:
 
