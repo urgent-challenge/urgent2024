@@ -8,6 +8,8 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-09-20]** We have postponed the submission deadline by one day in the [Timeline](/urgent2024/timeline) tab to compensate for the laggy evaluation server.
+
 * **[2024-09-19]** We have released the `blind test set` for the final-phase evaluation. Please visit the [`Data`](/urgent2024/data) tab for more information.
 
 * **[2024-08-20]** We have released the `non-blind test set` for the second-phase evaluation. Please visit the [`Data`](/urgent2024/data) tab for more information.

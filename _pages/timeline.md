@@ -16,7 +16,7 @@ nav_order: 2
 |      August 19, 2024              | Release of non-blind test data |
 |      August 19, 2024              | Leaderboard (test) opens   |
 |      September 18, 2024          | Release of blind test data (for final ranking) |
-|    September 20, 2024 (23:59:59) | **End of the challenge**   |
+|    <del><div style="color: gray;">September 20, 2024 (23:59:59)</div></del>September 21, 2024 (23:59:59)<d-footnote>We have postponed the deadline by one day due to the laggy evaluation server.</d-footnote> | **End of the challenge**   |
 |     October 21, 2024              | Notification of final results |
 {: .table}
 {: .table-striped}
