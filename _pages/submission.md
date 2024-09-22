@@ -8,7 +8,9 @@ nav_order: 6
 ---
 
 
-The submission system is open from June 20, 2024, to September 20, 2024 (23:59:59 AoE).
+<del>The submission system is open from June 20, 2024, to September 21, 2024 (23:59:59 AoE).</del>
+
+The submission system has been closed for the official challenge. Thank you for your participation!
 
 ### Submission format and requirements
 

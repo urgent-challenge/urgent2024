@@ -61,3 +61,14 @@ Timeout: The evaluation server is busy. Please try to resubmit later.
 ```
 
 **Answer:** Evaluation jobs for your submission were killed due to a timeout. This may be caused by unexpected long queuing in our SLURM system on the server. Please contact us and we will rerun the evaluation for you.
+
+
+Message 6:
+```
+RuntimeError: CUDA error: uncorrectable ECC error encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+```
+
+**Answer:** Evaluation jobs for your submission were terminated likely due to a hardware issue of the specific node assigned to evaluate your submission. Please contact us and we will rerun the evaluation using another node for you.
