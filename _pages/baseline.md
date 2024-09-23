@@ -13,7 +13,7 @@ bibliography: baseline.bib
 
 <img alt="framework" src="/urgent2024/assets/img/framework.png" style="max-width: 100%;"/>
 
-The basic framework is detailed in the challenge description paper<d-cite key="URGENT-ZHANG2024"/>.
+The basic framework is detailed in the challenge description paper<d-cite key="URGENT-Zhang2024"/>.
 
 As depicted in the figure above, we design a distortion model (simulation stage) <d-math>\mathcal{F}(\cdot)</d-math> to unify the data format for different distortion types, such that different speech enhancement (SE) sub-tasks can share a consistent input/output processing. In particular, we ensure that the sampling frequency (SF) at the output of the distortion model (degraded speech) is always equal to that of its input.
 
