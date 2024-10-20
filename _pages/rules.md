@@ -152,7 +152,7 @@ bibliography: rules.bib
 
     1. Calculate the average score of each metric for each submission.
     2. Calculate the per-metric ranking based on the average score.
-       * We adopt the standard competition ranking ("1224" ranking)<d-footnote><a href="https://en.wikipedia.org/wiki/Ranking#Standard_competition_ranking_(%221224%22_ranking)">https://en.wikipedia.org/wiki/Ranking#Standard_competition_ranking_(&quot;1224&quot;_ranking)</a></d-footnote> strategy for handling ties.
+       * We adopt the dense ranking ("1223" ranking)<d-footnote><a href="https://en.wikipedia.org/wiki/Ranking#Dense_ranking_(%221223%22_ranking)">https://en.wikipedia.org/wiki/Ranking#Dense_ranking_(&quot;1223&quot;_ranking)</a></d-footnote> strategy for handling ties.
     3. Calculate the `per-category ranking` by averaging the rankings within each category.
     4. Calculate the overall ranking by averaging the `per-category rankings`.<br/><br/>
 
