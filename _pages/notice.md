@@ -8,6 +8,8 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-10-21]** We have announced the final results of the challenge in https://urgent-challenge.com/competitions/5#final_results.
+
 * **[2024-09-22]** The blind test phase has officially ended. We will start the subjective evaluation soon.
 
 * **[2024-09-20]** We have postponed the submission deadline by one day in the [`Timeline`](/urgent2024/timeline) tab to compensate for the laggy evaluation server.
