@@ -8,6 +8,8 @@ nav: true
 nav_order: 9
 ---
 
+* **[2024-12-18]** Our NeurIPS workshop has successfully finished now. Thanks a lot to our presenters for your great work! Our presentation slides for opening and closing remarks are available at [here](https://drive.google.com/file/d/1Fr6jKUS4Eb-ZppYklNFcgFIkmYDuDc7M/view?usp=sharing). The recordings of presentations can also be found at the [NeurIPS workshop website](https://neurips.cc/virtual/2024/competition/84788).
+
 * **[2024-10-21]** We have announced the final results of the challenge in [https://urgent-challenge.com/competitions/5#final_results](https://urgent-challenge.com/competitions/5#final_results).
 
 * **[2024-09-22]** The blind test phase has officially ended. We will start the subjective evaluation soon.
