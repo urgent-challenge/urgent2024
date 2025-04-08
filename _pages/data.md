@@ -34,11 +34,11 @@ healthy brain network (HBN) electroencephalography dataset. bioRxiv, page 2024.1
 
 **Resting State.** In the Resting State task, participants rested their heads on a chin rest, looking forward to the computer screen with a fixation cross at the center of the screen. A pre-recorded voice instructed them to hold their eyes closed or open and fixate on the central cross during ‘eyes open’. The timeline of the event marker for the task is shown in figure.
 
-<img src="image.png" width="600">
+<img src="/eeg2025.github.io/assets/img/image.png" style="max-width: 100%;"/>
 
 **Surround Suppression.** Participants observed a modified Surround Suppression stimulus sequence (derived from [22] ). Four flashing peripheral disks in the foreground were presented with a contrasting background in two runs, each ~3.6 minutes long. We imported and synchronized foreground and background stimulus parameters from the corresponding behavioral recording for each subject to complete the stimulus event description. Figure 5 shows an example of an actual event-marker stream during the Surround Suppression task.
 
-<img src="image-1.png" width="600">
+<img src="./image-1.png" width="600">
 
 **Movie Watching.** The final passive tasks involved watching movies. Participants were asked to watch four short movies with different themes and aims (1) ‘Despicable Me’, (2) ‘Diary of a Wimpy Kid’, (3) ‘Fun with Fractals’, and (4) ‘The Present’ [1] . Details and rationale for the movie choice and links to access the presented movies are available in the top-level _eeg.json files. The recorded event markers for each movie presentation include only the start and stop times. We will soon introduce methods and remodeling tools to insert custom event sequences for each movie relative to these event anchors (movie presentation start and stop) so researchers will be able to plug in an event stream of choice. 
 
