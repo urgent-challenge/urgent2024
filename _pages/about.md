@@ -18,7 +18,9 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="https://braindecode.org/stable/_images/braindecode.svg" style="max-width: 100%;"/>
+<div style="padding: 20px; text-align: center;">
+  <img alt="introduction" src="https://braindecode.org/stable/_images/braindecode.svg" style="max-width: 100%;" />
+</div>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 
@@ -96,4 +98,3 @@ Existing speech enhancement challenges have fostered the development of speech e
 Similar issues can also be observed in other speech tasks such as automatic speech recognition (ASR), speech translation (ST), speaker verification (SV), and spoken language understanding (SLU).
 Among them, speech enhancement is particularly vulnerable to mismatches since it is heavily reliant on paired clean/noisy speech data to achieve strong performance. Unsupervised speech enhancement that does not require groundtruth clean speech has been proposed to address this issue, but often merely brings benefit in a final finetuning stage<d-cite key="Employing-Xu2024"/>. Therefore, we focus on speech enhancement in this challenge to address the aforementioned problems.
 
-<!-- Be sure to list "URGENT Challenge: Universality, Robustness, and Generalizability for EnhancemeNT" as your paper subject area when making a submission. -->
