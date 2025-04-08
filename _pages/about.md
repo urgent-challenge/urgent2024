@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /
-subtitle: Universality, Robustness, and Generalizability for EnhancemeNT
+subtitle: Transfer Learning, Domain Adaptation, Bio Signal, Brain Decoding, Electroencephalogram, Event-Related Potential
 
 profile:
   align: right
@@ -18,7 +18,7 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="/assets/img/intro.png" style="max-width: 100%;"/>
+<img alt="introduction" src="https://braindecode.org/stable/_images/braindecode.svg" style="max-width: 100%;"/>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 
