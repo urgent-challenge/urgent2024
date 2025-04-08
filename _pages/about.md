@@ -37,9 +37,9 @@ if isinstance(speech_mix, np.ndarray):
     speech_mix = torch.as_tensor(speech_mix)
 </d-code> -->
 
-## EEG 2025 Challenge
+## The 2025 EEG decoding Challenge
 
-EEG (Foundation Model) Challenge: From  Cross-Task to learning subject invariance representation for EEG decoding is a biosignal challenge submitted by the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CompetitionTrack). We aim to build universal EEG model...
+The 2025 EEG decoding challenge: From  Cross-Task to learning subject invariance representation for EEG decoding is a biosignal challenge submitted by the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CompetitionTrack). We aim to build universal EEG model...
 
 ## Goal
 
