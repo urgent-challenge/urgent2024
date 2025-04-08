@@ -1,6 +1,6 @@
     <script type="text/javascript">
       $(function() {
-        const latestCode = '20250401';
+        const latestCode = '20241021';
         const cookiesEnabled = navigator.cookieEnabled;
       
         // Function to get cookie value
@@ -50,7 +50,7 @@
               }
             });
           });
-        }
+      }
       });
     </script>
 
@@ -167,25 +167,13 @@
           </div>
         </div>
       </nav>
-{% if site.enable_progressbar %}
+    {% if site.enable_progressbar %}
       <!-- Scrolling Progress Bar -->
       <progress id="progress" value="0">
         <div class="progress-container">
           <span class="progress-bar"></span>
         </div>
       </progress>
-{%- endif %}
+    {%- endif %}
     </header>
 
-    {% if page.permalink != '/' %}
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="page-header">
-            <h1 class="page-title">{{ page.title }}</h1>
-            {% if page.description %}
-              <p class="lead">{{ page.description }}</p>
-            {% endif %}
-          </div>
-        </div>
-      </div>
