@@ -7,8 +7,8 @@ first_name: EEG
 middle_name:
 last_name: Challenge (2025)
 year: 2025
-email: urgent.challenge@gmail.com
-description: Universality, Robustness, and Generalizability for EnhancemeNT # the ">" symbol means to ignore newlines until "footer_text:"
+email: neurips2025-eeg-competition@googlegroups.com
+description: From Cross-Task to learning subject invariance representation in EEG decoding # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
 
