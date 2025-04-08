@@ -3,25 +3,23 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: URGENT
+first_name: EEG
 middle_name:
-last_name: Challenge (2024)
-year: 2024
-all_challenges:
-  2024: "/urgent2024/"
-  2025: "https://urgent-challenge.github.io/urgent2025/"
+last_name: Challenge (2025)
+year: 2025
 email: urgent.challenge@gmail.com
 description: Universality, Robustness, and Generalizability for EnhancemeNT # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
 
-keywords:  speech enhancement # add your own keywords or leave empty
+keywords:  EEG Decoding # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://urgent-challenge.github.io # the base hostname & protocol for your site
-baseurl: /urgent2024 # the subpath of your site, e.g. /blog/
+url: eeg2025.github.io
+ # the base hostname & protocol for your site
+baseurl: /blog/ # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -69,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: urgent-challenge # your GitHub user name
+github_username: eeg2025 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
