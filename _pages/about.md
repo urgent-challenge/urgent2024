@@ -19,7 +19,7 @@ bibliography: about.bib
 
 
 <div style="padding: 20px; text-align: center;">
-  <img alt="introduction" src="https://braindecode.org/stable/_images/braindecode.svg" style="max-width: 100%;" />
+  <img alt="introduction" src="assets/eeg2025.png" style="max-width: 100%;" />
 </div>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
