@@ -18,7 +18,7 @@ bibliography: about.bib
 ---
 
 
-<img alt="introduction" src="/urgent2024/assets/img/intro.png" style="max-width: 100%;"/>
+<img alt="introduction" src="/assets/img/intro.png" style="max-width: 100%;"/>
 
 <!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
 
@@ -37,7 +37,7 @@ if isinstance(speech_mix, np.ndarray):
 
 ## EEG 2025 Challenge
 
-URGENT 2024 (Universality, Robustness, and Generalizability for EnhancemeNT) is a speech enhancement challenge accepted by the [**NeurIPS 2024 Competition Track**](https://neurips.cc/Conferences/2024/CompetitionTrack). We aim to build universal speech enhancement models for unifying speech processing in a wide variety of conditions.
+EEG (Foundation Model) Challenge: From  Cross-Task to learning subject invariance representation for EEG decoding is a biosignal challenge submitted by the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CompetitionTrack). We aim to build universal EEG model...
 
 ## Goal
 
