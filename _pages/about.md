@@ -37,64 +37,50 @@ if isinstance(speech_mix, np.ndarray):
     speech_mix = torch.as_tensor(speech_mix)
 </d-code> -->
 
-## The 2025 EEG decoding Challenge
+## The 2025 EEG Decoding Challenge
 
-The 2025 EEG decoding challenge: From  Cross-Task to learning subject invariance representation for EEG decoding is a biosignal challenge submitted by the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CompetitionTrack). We aim to build universal EEG model...
+The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance Representation for EEG Decoding is a biosignal challenge submitted to the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CallForCompetitions). This competition aims to advance the field of EEG decoding by addressing two critical challenges:
 
-## Goal
-
-Based on the increasing interest in the generalizability of EEG decoding models, we propose the EEG (Foundation Model) Challenge that aims to: 
-
-1. **Establish a benchmark dataset** for EEG decoding, encompassing diverse tasks and subjects.
-2. **Promote the development of generalizable EEG decoders** that perform robustly across diverse subjects and tasks.
-3. **Provide a set of varied benchmark tasks** for comprehensive evaluation.
-4. **Offer a computational framework** to streamline data and metadata handling, accelerating deep model training.
-
-## Dataset Description
-
-The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (Table 1). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL) [Achenbach1999-ey, Scopel-Hoffmann2022-sy]. These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
-
-**Overview of HBN-EEG tasks used in the competition.**
-
-| Category | Task                     | Description                                                   | Key Features                                                                   |
-|----------|--------------------------|---------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Passive  | Resting State (RS)       | Eyes open/closed conditions with fixation cross               | Pre-recorded voice instructions, event-marked transitions                        |
-|          | Surround Suppression (SuS)| Four flashing peripheral disks with contrasting background    | Parametrized foreground/background stimuli, ~3.6 min duration per run           |
-|          | Movie Watching (MW)      | Four short films with different themes                        | Includes animation, drama, and educational content                              |
-| Active   | Contrast Change Detection (CCD) | Identifying dominant contrast in co-centric flickering grated disks | Includes response time and performance feedback                               |
-|          | Sequence Learning (SL)   | Memorizing and reproducing sequences of flashed circles       | Age-adjusted difficulty (10 or 7 sequences), multiple repetitions              |
-|          | Symbol Search (SyS)      | Computerized version of WISC-IV subtest                       | Target symbol identification among distractors                                  |
+1. **Cross-Task Transfer Learning**: Developing models that can effectively transfer knowledge from passive EEG tasks to active tasks
+2. **Subject Invariance Representation**: Creating robust representations that generalize across different subjects while predicting clinical factors
 
 
-## Task Introduction
 
-**1. Cross-task Transfer Learning**
-[Train on passive tasks and predict active tasks.]
+## Competition Tasks
 
-**2. Subject Invariance Representation**
-[Predicting clinical factors, including p-factor, internalizing, externalizing, and attention.]
+### Task 1: Cross-Task Transfer Learning
+Participants will train models on passive EEG tasks (Resting State, Surround Suppression, Movie Watching) and evaluate their performance on active tasks (Contrast Change Detection, Sequence Learning, Symbol Search). The goal is to develop models that can effectively transfer knowledge across different cognitive tasks.
 
-## Communication
+### Task 2: Subject Invariance Representation
+Teams will develop models that can predict clinical factors (p-factor, internalizing, externalizing, and attention) while maintaining robustness across different subjects. This task focuses on creating subject-invariant representations that generalize well to unseen individuals.
 
-[Slack/Discord]
+## Dataset
+
+The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks:
+
+### Passive Tasks
+- **Resting State (RS)**: Eyes open/closed conditions with fixation cross
+- **Surround Suppression (SuS)**: Four flashing peripheral disks with contrasting background
+- **Movie Watching (MW)**: Four short films with different themes
+
+### Active Tasks
+- **Contrast Change Detection (CCD)**: Identifying dominant contrast in co-centric flickering grated disks
+- **Sequence Learning (SL)**: Memorizing and reproducing sequences of flashed circles
+- **Symbol Search (SyS)**: Computerized version of WISC-IV subtest
+
+Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL).
 
 ## Workshop
 
-Top-ranking teams will be invited to a dedicated workshop in the NeurIPS 2025 conference (December 14 or December 15, 2025). More information will be provided after the challenge is completed.
-
-<!-- ## Paper Submission
-
-Participants may feel free to submit their system description paper to any conference. -->
+Top-ranking teams will be invited to present their work at a dedicated workshop during the NeurIPS 2025 conference (December 14-15, 2025). 
 
 ## Motivation
 
-EEG decoding faces significant challenges due to signal heterogeneity from various factors like non-stationarity, noise sensitivity, inter-subject morphological differences, varying experimental paradigms, and differences in sensor placement. Though strong decoding performance has been shown in various settings 
+EEG decoding faces significant challenges due to signal heterogeneity from various factors like non-stationarity, noise sensitivity, inter-subject morphological differences, varying experimental paradigms, and differences in sensor placement. While recent advances in machine learning have shown promise, there remains a critical need for models that can generalize across different subjects and tasks without expensive recalibration.
 
-[insert past approaches, including competitions like BEETL/Sleep data/Motor imagery ...] 
-
-the field still suffers from poor generalization to new subjects, tasks, and even new recording of the same subject and task over time without expensive re-calibration.
-
-While the shift towards training more complex non-linear models on larger datasets in machine learning community has motivated innovation in model developments in EEG decoding, there is a lack of a large-scale dataset with diversity that can be used to evaluate the generalization of these models. 
-
-To address this, we introduce a large-scale dataset featuring EEG recordings from over 3,000 subjects across six distinct cognitive tasks, captured with 128 channels.
+This competition aims to address these challenges by:
+1. Providing a large-scale, diverse dataset for evaluating model generalization
+2. Encouraging the development of robust, transferable EEG decoding methods
+3. Establishing benchmarks for cross-task and cross-subject performance
+4. Fostering collaboration between machine learning and neuroscience communities
 
