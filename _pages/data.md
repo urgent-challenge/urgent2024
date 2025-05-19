@@ -11,6 +11,8 @@ bibliography: data.bib
 
 ### Updates
 
+❗️❗️**[2025-05-16]** The official evaluation datasets (validation, non-blind test, and blind test) have also been uploaded to Hugging Face. You can find them at [https://huggingface.co/datasets/urgent-challenge/urgent2024_official](https://huggingface.co/datasets/urgent-challenge/urgent2024_official). An additional speech quality assessment dataset with human-annotated mean opinion score (MOS) labels has also been released at [https://huggingface.co/datasets/urgent-challenge/urgent2024_mos](https://huggingface.co/datasets/urgent-challenge/urgent2024_mos).
+
 ❗️❗️**[2024-09-22]** We have released the labels for the non-blind test dataset. You can download them from [Google Drive](https://drive.google.com/file/d/1fvlrzw1K1YPZcC9GxY7nMNPIxu3-Dx78/view?usp=sharing).
 
 ❗️❗️**[2024-09-19]** We have released the official blind test dataset. This is the dataset that will be used for the final ranking. You can download it from [Google Drive](https://drive.google.com/file/d/1qBTHgII6o57tmO8GPIunqZVtZhAu0M__/view?usp=sharing).
