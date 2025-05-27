@@ -15,7 +15,7 @@ footer_text: >
 keywords:  EEG Decoding # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: logo.jpg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: eeg2025.github.io
  # the base hostname & protocol for your site
