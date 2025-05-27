@@ -9,7 +9,6 @@ nav_order: 4
 bibliography: rules.bib
 ---
 
-# Competition Rules
 
 ## General Rules
 The rules that will be provided to the contestants are the following:

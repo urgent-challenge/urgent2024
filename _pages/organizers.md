@@ -7,7 +7,6 @@ nav: false
 nav_order: 10
 ---
 
-# Organizing Team
 
 ## Core Coordinators
 - **Bruno Aristimunha** - Research Engineer at INRIA TAU and PhD student at University of Paris-Saclay. Lead Maintainer of Braindecode library and Core Developer for MOABB benchmarking framework.

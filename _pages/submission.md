@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 6
 ---
-# Submission Requirements
+
    - This is a code submission competition
    - Teams must submit their code during the inference stage
    - Code must be complete and executable

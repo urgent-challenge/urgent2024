@@ -34,21 +34,21 @@ healthy brain network (HBN) electroencephalography dataset. bioRxiv, page 2024.1
 
 **Resting State.** In the Resting State task, participants rested their heads on a chin rest, looking forward to the computer screen with a fixation cross at the center of the screen. A pre-recorded voice instructed them to hold their eyes closed or open and fixate on the central cross during ‘eyes open’. The timeline of the event marker for the task is shown in figure.
 
-<img src="/eeg2025.github.io/assets/img/image.png" style="max-width: 100%;"/>
+<img src="https://eeg2025.github.io/assets/img/image.png" style="max-width: 100%;"/>
 
 **Surround Suppression.** Participants observed a modified Surround Suppression stimulus sequence (derived from [22] ). Four flashing peripheral disks in the foreground were presented with a contrasting background in two runs, each ~3.6 minutes long. We imported and synchronized foreground and background stimulus parameters from the corresponding behavioral recording for each subject to complete the stimulus event description. Figure 5 shows an example of an actual event-marker stream during the Surround Suppression task.
 
-<img src="./image-1.png" width="600">
+<img src="https://eeg2025.github.io/assets/img/image-1.png" width="600">
 
 **Movie Watching.** The final passive tasks involved watching movies. Participants were asked to watch four short movies with different themes and aims (1) ‘Despicable Me’, (2) ‘Diary of a Wimpy Kid’, (3) ‘Fun with Fractals’, and (4) ‘The Present’ [1] . Details and rationale for the movie choice and links to access the presented movies are available in the top-level _eeg.json files. The recorded event markers for each movie presentation include only the start and stop times. We will soon introduce methods and remodeling tools to insert custom event sequences for each movie relative to these event anchors (movie presentation start and stop) so researchers will be able to plug in an event stream of choice. 
 
 **Contrast Change Detection.** In this task, two co-centric flickering grated disks (one with left-leaning gratings and one with right-leaning gratings) appear on the screen. After a randomly selected time, one of the two flickering grated disks on the screen would change the contrast. Participants were asked to identify the left-leaning or right-leaning grated disks with dominant contrast as soon as they could identify the disk. Based on their responses, feedback (a smiley face or sad face) was presented. We imported participant responses from the behavioral recordings and assembled HED descriptions for the main task and the respective subject responses.
 
-<img src="image-2.png" width="600">
+<img src="https://eeg2025.github.io/assets/img/image-2.png" width="600">
 
 **Sequence learning.** Participants were shown a sequence of 10 (or 7 if <8 years old) flashed circles among 8 (or 6) possible and predetermined targets positioned on the periphery of a larger invisible circle on the screen (Figure 7). The same sequence was repeated five times, and after each repetition, participants were asked to repeat the sequence using a computer mouse. The participant’s response sequence was recorded for each repetition, but unfortunately, the timestamps of this response were not recorded. Because of the difference in the target and sequence counts, we divided this task into two tasks: a six-target task, and an eight-target task. The task is based on a similarly designed sequence learning experiment by Steinemann [24].
 
-<img src="image-4.png" width="600">
+<img src="https://eeg2025.github.io/assets/img/image-4.png" width="600">
 
 **Symbol search.** The final task in the interactive battery of experiments involves an emulation of a standard neuropsychological test (a subset of the Wechsler Intelligence Scale for Children IV, WISC-IV [25] ) on the computer screen, in which participants were asked to confirm if either of the target symbols in each row were present in the five search symbols present in the same row (Figure 8). The test was presented to the participants in 15-row sequences, and participants were asked to go to the next set of sequences once they responded to all 15 rows. Since each of the 15 questions was presented simultaneously, only the times participants pressed the mouse button to respond were recorded.
 

@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-## Competition Phases
+## Phases
 
 ### Warm-up Phase (July 15 - September 15, 2025)
 - Contestants can submit code for evaluation on validation set
@@ -24,7 +24,7 @@ nav_order: 2
 
 |   **Date (Anywhere on Earth)**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
-| 15/07/2025 | **Warm-up Phase Begins** - Contestants can start submitting code, evaluated on validation set (HBN Release 5) |
+| 27/07/2025 | **Warm-up Phase Begins** - Contestants can start submitting code, evaluated on validation set (HBN Release 5) |
 | 15/09/2025 | **Final Phase Begins** - Evaluation on unreleased test set (HBN Release 12) |
 | 31/10/2025 | **Competition Ends** |
 | 30/11/2025 | Competition reports and analysis paper |
