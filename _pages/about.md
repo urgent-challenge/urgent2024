@@ -17,27 +17,12 @@ social: false  # includes social icons at the bottom of the page
 bibliography: about.bib
 ---
 
+# EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding
+
 
 <div style="padding: 20px; text-align: center;">
-  <img alt="introduction" src="https://eeg2025.github.io/assets/img/eeg2025.png" style="max-width: 100%;" />
+  <img alt="introduction" src="https://eeg2025.github.io/assets/img/workflow.png" style="max-width: 100%;" />
 </div>
-
-<!-- <p>We can also cite <d-cite key="VoiceFixer-Liu2022"></d-cite> external publications.</p>
-
-<d-math block>
-  \mathbb{E}_{z \sim q_\phi(z|x)}
-</d-math>
-
-Hi <d-footnote>This is a footnote.</d-footnote> how are you?
-
-<d-code block language="python">
-import torch
-
-if isinstance(speech_mix, np.ndarray):
-    speech_mix = torch.as_tensor(speech_mix)
-</d-code> -->
-
-## The 2025 EEG Decoding Challenge
 
 The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance Representation for EEG Decoding is a biosignal challenge submitted to the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CallForCompetitions). This competition aims to advance the field of EEG decoding by addressing two critical challenges:
 
@@ -47,8 +32,6 @@ The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance 
 
 
 ## Competition Tasks
-
-<img src="https://eeg2025.github.io/assets/img/workflow.png" style="max-width: 100%;"/>
 
 
 ### Task 1: Cross-Task Transfer Learning
