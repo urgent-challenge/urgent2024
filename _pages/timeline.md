@@ -6,7 +6,6 @@ description:
 nav: true
 nav_order: 2
 ---
-## **Phases**
 
 ### Warm-up Phase (July 15 - September 15, 2025)
 - Contestants can submit code for evaluation on validation set
