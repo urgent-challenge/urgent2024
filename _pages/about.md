@@ -18,9 +18,9 @@ bibliography: about.bib
 ---
 
 <!-- # EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding -->
-<div class="row" style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center;">
     <img src="https://eeg2025.github.io/assets/img/logo.png" alt="logo" style="width: 150px;">
-    <h1>
+    <h1 style="display: inline-block;">
       <span style="font-weight: bold;">EEG Foundation Challenge:</span> From Cross-Task to Cross-Subject EEG Decoding
     </h1>
 </div>
