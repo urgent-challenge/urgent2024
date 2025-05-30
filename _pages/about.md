@@ -19,12 +19,12 @@ bibliography: about.bib
 
 <!-- # EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding -->
 <div class="row">
-  <div class="column" style="width: 150px">
+  <div class="vertical-center" style="width: 150px">
     <img src="https://eeg2025.github.io/assets/img/logo.png" alt="logo" style="height: 150px;">
   </div>
   <div class="vertical-center" style="padding: 50px; width: calc(100% - 150px);">
     <h1> 
-    <span class="font-weight-bold">EEG Foundation Challenge:</span> 
+    <span class="font-weight-bold">EEG Foundation Challenge:</span> <br>
     From Cross-Task to Cross-Subject EEG Decoding
     </h1>
   </div>
