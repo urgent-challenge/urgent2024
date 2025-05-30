@@ -62,7 +62,7 @@ The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/conten
 - **Sequence Learning (SL)**: Memorizing and reproducing sequences of flashed circles
 - **Symbol Search (SyS)**: Computerized version of WISC-IV subtest
 
-Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL).
+Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL), and demographic information, including age, sex, and handedness. Data is in the BIDS (Brain Imaging Data Structure) format.
 
 ## Workshop
 
