@@ -76,14 +76,14 @@ This competition aims to address these challenges by:
 
 <div style="padding: 20px; text-align: center;">
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
-    <img src="https://eeg2025.github.io/assets/logos/ups.jpg" style="max-width: 30%; margin: 10px;" alt="Université Paris-Saclay Logo" />
+    <img src="https://eeg2025.github.io/assets/logos/ups.png" style="max-width: 30%; margin: 10px;" alt="Université Paris-Saclay Logo" />
     <img src="https://eeg2025.github.io/assets/logos/lisn.png" style="max-width: 30%; margin: 10px;" alt="LISN Logo" />
     <img src="https://eeg2025.github.io/assets/logos/ucsd.png" style="max-width: 30%; margin: 10px;" alt="UCSD Logo" />
   </div>
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
     <img src="https://eeg2025.github.io/assets/logos/inria.png" style="max-width: 30%; margin: 10px;" alt="Inria Logo" />
     <img src="https://eeg2025.github.io/assets/logos/icm.png" style="max-width: 30%; margin: 10px;" alt="Paris Brain Institute (Institut du Cerveau – ICM) Logo" />
-    <img src="https://eeg2025.github.io/assets/logos/radboud.jpg" style="max-width: 30%; margin: 10px;" alt="Radboud University Logo" />
+    <img src="https://eeg2025.github.io/assets/logos/radboud.png" style="max-width: 30%; margin: 10px;" alt="Radboud University Logo" />
   </div>
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
     <img src="https://eeg2025.github.io/assets/logos/chalearn.png" style="max-width: 30%; margin: 10px;" alt="ChaLearn Logo" />
@@ -96,11 +96,11 @@ This competition aims to address these challenges by:
     <img src="https://eeg2025.github.io/assets/logos/ufabc.png" style="max-width: 30%; margin: 10px;" alt="Federal University of ABC (UFABC) Logo" />
   </div>
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
-    <img src="https://eeg2025.github.io/assets/logos/cneuro.jpg" style="max-width: 30%; margin: 10px;" alt="Cuban Neuroscience Center (CNEURO) Logo" />
+    <img src="https://eeg2025.github.io/assets/logos/cneuro.png" style="max-width: 30%; margin: 10px;" alt="Cuban Neuroscience Center (CNEURO) Logo" />
     <img src="https://eeg2025.github.io/assets/logos/UESTC.png" style="max-width: 30%; margin: 10px;" alt="University of Electronic Science and Technology of China Logo" />
     <img src="https://eeg2025.github.io/assets/logos/cnrs.png" style="max-width: 30%; margin: 10px;" alt="CNRS Centre National de la Recherche Scientifique Logo" />
   </div>
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-    <img src="https://eeg2025.github.io/assets/logos/mcgill.jpg" style="max-width: 30%; margin: 10px;" alt="McGill University Logo" />
+    <img src="https://eeg2025.github.io/assets/logos/mcgill.png" style="max-width: 30%; margin: 10px;" alt="McGill University Logo" />
   </div>
 </div>
