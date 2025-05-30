@@ -61,7 +61,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
+            <!-- {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 {{- site.first_name -}}&nbsp;
               {%- endif -%}
@@ -73,7 +73,8 @@
               {%- endif -%}
             {%- else -%}
               {{- site.title -}}
-            {%- endif -%}
+            {%- endif -%} -->
+            <img src="{{ site.baseurl }}/assets/img/logo.png" alt="{{- site.first_name -}} {{- site.last_name -}}" style="height: 40px;">
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
