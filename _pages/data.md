@@ -11,7 +11,7 @@ bibliography: data.bib
 
 ### Data description
 
-The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (Table 1). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL) [Achenbach1999-ey, Scopel-Hoffmann2022-sy]. These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
+The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (Table 1). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL) <d-cite key="achenbach1999,hoffmann2022"/>. These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
 
 **Overview of HBN-EEG tasks used in the competition.**
 
