@@ -50,7 +50,7 @@ Teams will develop models that can predict clinical factors (p-factor, internali
 
 ## Dataset
 
-The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks:
+The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/content/10.1101/2024.10.03.615261v2), [blog post](https://neuromechanist.github.io/data/hbn/)), which includes EEG recordings from over 3,000 participants across six distinct cognitive tasks:
 
 ### Passive Tasks
 - **Resting State (RS)**: Eyes open/closed conditions with fixation cross
