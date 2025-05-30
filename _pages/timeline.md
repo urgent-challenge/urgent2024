@@ -15,7 +15,8 @@ nav_order: 2
 | 31/10/2025 | **Competition Ends** |
 | 30/11/2025 | Competition reports and analysis paper |
 | 14-15/12/2025 | **NeurIPS Workshop** - Competition session and keynote on lessons learned |
-
+{: .table}
+{: .table-striped}
 
 ### Details about Warm-up Phase 
 - Contestants can submit code for evaluation on validation set
