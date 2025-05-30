@@ -21,7 +21,7 @@ bibliography: about.bib
 
 
 <div style="padding: 20px; text-align: center;">
-  <img alt="introduction" src="https://eeg2025.github.io/assets/img/workflow.png" style="max-width: 100%;" />
+  <img alt="introduction" src="https://eeg2025.github.io/assets/img/banner_square.png" style="max-width: 100%;" />
 </div>
 
 The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance Representation for EEG Decoding is a biosignal challenge accepted to the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CallForCompetitions). This competition aims to advance the field of EEG decoding by addressing two critical challenges:
@@ -34,6 +34,9 @@ Check the complete proposal [here](https://eeg2025.github.io/assets/files/propos
 
 ## Competition Tasks
 
+<div style="padding: 20px; text-align: center;">
+  <img alt="introduction" src="https://eeg2025.github.io/assets/img/workflow.png" style="max-width: 100%;" />
+</div>
 
 ### Task 1: Cross-Task Transfer Learning
 Participants will train models on passive EEG tasks (Resting State, Surround Suppression, Movie Watching) and evaluate their performance on active tasks (Contrast Change Detection, Sequence Learning, Symbol Search). The goal is to develop models that can effectively transfer knowledge across different cognitive tasks.
