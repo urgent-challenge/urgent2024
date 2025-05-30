@@ -50,7 +50,7 @@ Teams will develop models that can predict clinical factors (p-factor, internali
 
 ## Dataset
 
-The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks:
+The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/content/10.1101/2024.10.03.615261v2), [blog post](https://neuromechanist.github.io/data/hbn/)), which includes EEG recordings from over 3,000 participants across six distinct cognitive tasks:
 
 ### Passive Tasks
 - **Resting State (RS)**: Eyes open/closed conditions with fixation cross
@@ -62,7 +62,7 @@ The competition dataset includes EEG recordings from over 3,000 participants acr
 - **Sequence Learning (SL)**: Memorizing and reproducing sequences of flashed circles
 - **Symbol Search (SyS)**: Computerized version of WISC-IV subtest
 
-Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL).
+Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL), and demographic information, including age, sex, and handedness. Data is in the BIDS (Brain Imaging Data Structure) format.
 
 ## Workshop
 
