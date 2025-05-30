@@ -31,6 +31,9 @@ Check the complete proposal [here](https://eeg2025.github.io/assets/files/propos
 
 <div style="padding: 20px; text-align: center;">
   <img alt="introduction" src="https://eeg2025.github.io/assets/img/workflow.png" style="max-width: 100%;" />
+  <p style="text-align: left; margin-top: 10px; font-family: sans-serif; font-size: 0.9e">
+    <b>Figure 1</b>: HBN-EEG Dataset and Data split. <b>A.</b> EEG is recorded using a 128-channel system during active tasks (i.e., with user input) or passive tasks. <b>B.</b> The psychopathology and demographic factors. <b>C.</b> The datasets split into Train, Test and Validation. Details in <b><a href="https://eeg2025.github.io/assets/files/proposal.pdf">subsection 1.2 for the proposal.</a></b>
+  </p>
 </div>
 
 ### Task 1: Cross-Task Transfer Learning
