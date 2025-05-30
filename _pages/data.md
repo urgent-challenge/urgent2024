@@ -11,7 +11,7 @@ bibliography: data.bib
 
 ### Data description
 
-The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (Table 1). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL) <d-cite key="achenbach1999,hoffmann2022"/>. These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
+The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories, check table bellow. Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL). These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
 
 **Overview of HBN-EEG tasks used in the competition.**
 
@@ -25,12 +25,6 @@ The competition dataset includes EEG recordings from over 3,000 participants acr
 |          | Symbol Search (SyS)      | Computerized version of WISC-IV subtest                       | Target symbol identification among distractors                                  |
 
 #### Task-specific procedures
-Reference:
-- Seyed Yahya Shirazi, Alexandre Franco, Mauricio Scopel Hoffmann, Nathalia Esper, Dung Truong,
-Arnaud Delorme, Michael Milham, and Scott Makeig. HBN-EEG: The FAIR implementation of the
-healthy brain network (HBN) electroencephalography dataset. bioRxiv, page 2024.10.03.615261,
-3 October 2024. doi: 10.1101/2024.10.03.615261.
-
 
 **Resting State.** In the Resting State task, participants rested their heads on a chin rest, looking forward to the computer screen with a fixation cross at the center of the screen. A pre-recorded voice instructed them to hold their eyes closed or open and fixate on the central cross during ‘eyes open’. The timeline of the event marker for the task is shown in figure.
 
@@ -51,6 +45,14 @@ healthy brain network (HBN) electroencephalography dataset. bioRxiv, page 2024.1
 <img src="https://eeg2025.github.io/assets/img/image-4.png"  style="max-width: 100%;"/>
 
 **Symbol search.** The final task in the interactive battery of experiments involves an emulation of a standard neuropsychological test (a subset of the Wechsler Intelligence Scale for Children IV, WISC-IV [25] ) on the computer screen, in which participants were asked to confirm if either of the target symbols in each row were present in the five search symbols present in the same row (Figure 8). The test was presented to the participants in 15-row sequences, and participants were asked to go to the next set of sequences once they responded to all 15 rows. Since each of the 15 questions was presented simultaneously, only the times participants pressed the mouse button to respond were recorded.
+
+## Reference:
+
+- Seyed Yahya Shirazi, Alexandre Franco, Mauricio Scopel Hoffmann, Nathalia Esper, Dung Truong,
+Arnaud Delorme, Michael Milham, and Scott Makeig. HBN-EEG: The FAIR implementation of the
+healthy brain network (HBN) electroencephalography dataset. bioRxiv, page 2024.10.03.615261,
+3 October 2024. doi: 10.1101/2024.10.03.615261.
+
 
 <style>
 /* Basic */
