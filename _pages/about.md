@@ -24,8 +24,7 @@ bibliography: about.bib
   </div>
   <div style="padding: 50px; flex-grow: 1;">
     <h1>
-      <span style="font-weight: bold;">EEG Foundation Challenge:</span> <br>
-      From Cross-Task to Cross-Subject EEG Decoding
+      <span style="font-weight: bold;">EEG Foundation Challenge:</span> From Cross-Task to Cross-Subject EEG Decoding
     </h1>
   </div>
 </div>
