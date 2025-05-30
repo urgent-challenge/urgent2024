@@ -8,10 +8,10 @@ nav_order: 2
 ---
 
 
-|   **Date (Anywhere on Earth)**  |         **Event**          |
+|   **Date**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
-| 01/08/2025 | **Warm-up Phase Begins** - Contestants can start submitting code, evaluated on validation set (HBN Release 5) |
-| 15/09/2025 | **Final Phase Begins** - Evaluation on unreleased test set (HBN Release 12) |
+| 01/08/2025 | **Warm-up Phase Begins**  |
+| 15/09/2025 | **Final Phase Begins**  |
 | 31/10/2025 | **Competition Ends** |
 | 30/11/2025 | Competition reports and analysis paper |
 | 14-15/12/2025 | **NeurIPS Workshop** - Competition session and keynote on lessons learned |
@@ -19,13 +19,14 @@ nav_order: 2
 {: .table-striped}
 
 ### Details about Warm-up Phase 
+- Contestants can start submitting code, evaluated on validation set (HBN Release 5)
 - Contestants can submit code for evaluation on validation set
 - No limit on number of submissions
 - Leaderboard for validation set performance
 - Baseline models provided for reference
 
 ###  Details about  Final Phase
-- Evaluation on unreleased test set
+- Evaluation on unreleased test set (HBN Release 12)
 - Limited number of submissions per day
 - Final rankings and scores released after deadline
 - Teams must submit 2-page document describing methods, analysis, and discussion
