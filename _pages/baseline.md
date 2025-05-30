@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /baseline/
-title: Starter Kit
+title: Starter&nbsp;Kit
 description:  
 nav: true
 nav_order: 5
