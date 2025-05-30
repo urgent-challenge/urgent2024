@@ -14,23 +14,23 @@ nav_order: 9
 - **Pierre Guetschel** - PhD candidate at Donders Institute. Research focuses on deep learning for EEG decoding, transfer learning, and foundation models.
 - **Seyed Yahya Shirazi** - Assistant Project Scientist at UC San Diego. Led HBN-EEG data curation and annotation. -->
 <div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px;">
-    <div style="max-width: 220px; text-align: center; margin: 10px;">
-        <img src="https://eeg2025.github.io/assets/people/bruno.png" style="width: 100%; max-width: 180px; border-radius: 8px;" alt="Bruno Aristimunha" />
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/bruno.png" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Bruno Aristimunha" />
         <div style="font-weight: bold; margin-top: 10px;">Bruno Aristimunha</div>
         <div style="font-size: 0.95em;">Research Engineer at INRIA TAU and PhD student at University of Paris-Saclay. Lead Maintainer of Braindecode library and Core Developer for MOABB benchmarking framework.</div>
     </div>
-    <div style="max-width: 220px; text-align: center; margin: 10px;">
-        <img src="https://eeg2025.github.io/assets/people/dung.png" style="width: 100%; max-width: 180px; border-radius: 8px;" alt="Dung Truong" />
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/dung.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Dung Truong" />
         <div style="font-weight: bold; margin-top: 10px;">Dung Truong</div>
         <div style="font-size: 0.95em;">Research Engineer at Swartz Center for Computational Neuroscience, UCSD. Specializes in EEG data standardization and deep learning algorithms.</div>
     </div>
-    <div style="max-width: 220px; text-align: center; margin: 10px;">
-        <img src="https://eeg2025.github.io/assets/people/pierre.png" style="width: 100%; max-width: 180px; border-radius: 8px;" alt="Pierre Guetschel" />
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/pierre.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Pierre Guetschel" />
         <div style="font-weight: bold; margin-top: 10px;">Pierre Guetschel</div>
         <div style="font-size: 0.95em;">PhD candidate at Donders Institute. Research focuses on deep learning for EEG decoding, transfer learning, and foundation models.</div>
     </div>
-    <div style="max-width: 220px; text-align: center; margin: 10px;">
-        <img src="https://eeg2025.github.io/assets/people/seyed.png" style="width: 100%; max-width: 180px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
         <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
         <div style="font-size: 0.95em;">Assistant Project Scientist at UC San Diego. Led HBN-EEG data curation and annotation.</div>
     </div>
