@@ -96,7 +96,7 @@ This competition aims to address these challenges by:
     <img src="https://eeg2025.github.io/assets/logos/ufabc.png" style="max-width: 30%; margin: 10px;" alt="Federal University of ABC (UFABC) Logo" />
   </div>
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
-    <img src="https://eeg2025.github.io/assets/logos/cneuro.png" style="max-width: 30%; margin: 10px;" alt="Cuban Neuroscience Center (CNEURO) Logo" />
+    <img src="https://eeg2025.github.io/assets/logos/cneuro.jpg" style="max-width: 30%; margin: 10px;" alt="Cuban Neuroscience Center (CNEURO) Logo" />
     <img src="https://eeg2025.github.io/assets/logos/UESTC.png" style="max-width: 30%; margin: 10px;" alt="University of Electronic Science and Technology of China Logo" />
     <img src="https://eeg2025.github.io/assets/logos/cnrs.png" style="max-width: 30%; margin: 10px;" alt="CNRS Centre National de la Recherche Scientifique Logo" />
   </div>
