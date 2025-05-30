@@ -19,14 +19,10 @@ bibliography: about.bib
 
 <!-- # EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding -->
 <div class="row" style="display: flex; align-items: center;">
-  <div style="width: 150px; flex-shrink: 0; text-align: center;">
-    <img src="https://eeg2025.github.io/assets/img/logo.png" alt="logo" style="height: 150px;">
-  </div>
-  <div style="padding: 50px; flex-grow: 1;">
+    <img src="https://eeg2025.github.io/assets/img/logo.png" alt="logo" style="width: 150px;">
     <h1>
       <span style="font-weight: bold;">EEG Foundation Challenge:</span> From Cross-Task to Cross-Subject EEG Decoding
     </h1>
-  </div>
 </div>
 
 The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance Representation for EEG Decoding is a biosignal challenge accepted to the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CallForCompetitions). This competition aims to advance the field of EEG decoding by addressing two critical challenges:
