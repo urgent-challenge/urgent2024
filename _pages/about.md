@@ -22,7 +22,7 @@ bibliography: about.bib
   <div class="vertical-center" style="width: 150px; height: 200px;">
     <img src="https://eeg2025.github.io/assets/img/logo.png" alt="logo" style="height: 150px; vertical-align: middle;">
   </div>
-  <div class="vertical-center" style="padding: 50px; width: calc(100% - 150px); height: 200px;">
+  <div class="vertical-center" style="padding: 50px; width: calc(100% - 150px); height: 200px; vertical-align: middle;">
     <h1> 
     <span class="font-weight-bold">EEG Foundation Challenge:</span> <br>
     From Cross-Task to Cross-Subject EEG Decoding
