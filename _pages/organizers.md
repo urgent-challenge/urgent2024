@@ -4,7 +4,7 @@ permalink: /organizers/
 title: Organizers
 description:  
 nav: false
-nav_order: 10
+nav_order: 9
 ---
 
 
