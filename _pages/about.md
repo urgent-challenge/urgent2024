@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+# title: About
 permalink: /
 subtitle: Transfer Learning, Domain Adaptation, Bio Signal, Brain Decoding, Electroencephalogram, Event-Related Potential
 
