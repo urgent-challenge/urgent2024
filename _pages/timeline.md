@@ -8,7 +8,6 @@ nav_order: 2
 ---
 
 
-
 |   **Date (Anywhere on Earth)**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
 | 01/08/2025 | **Warm-up Phase Begins** - Contestants can start submitting code, evaluated on validation set (HBN Release 5) |
