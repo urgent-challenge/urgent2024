@@ -114,3 +114,28 @@ This competition aims to address these challenges by:
     <img src="https://eeg2025.github.io/assets/logos/mcgill.png" style="max-width: 25%; margin: 10px;" alt="McGill University Logo" />
   </div>
 </div>
+
+## Core Coordinators
+
+<div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px;">
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/bruno.png" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Bruno Aristimunha" />
+        <div style="font-weight: bold; margin-top: 10px;">Bruno Aristimunha</div>
+        <div style="font-size: 0.95em;">INRIA, University of Paris-Saclay</div>
+    </div>
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/dung.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Dung Truong" />
+        <div style="font-weight: bold; margin-top: 10px;">Dung Truong</div>
+        <div style="font-size: 0.95em;">Swartz Center for Computational Neuroscience, UCSD</div>
+    </div>
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/pierre.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Pierre Guetschel" />
+        <div style="font-weight: bold; margin-top: 10px;">Pierre Guetschel</div>
+        <div style="font-size: 0.95em;">Donders Institute, Radboud University</div>
+    </div>
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
+        <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
+        <div style="font-size: 0.95em;">UC San Diego</div>
+    </div>
+</div>
