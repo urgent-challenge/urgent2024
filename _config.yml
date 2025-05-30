@@ -105,7 +105,7 @@ google_analytics: GTM-MMVTSGKZ # your Goole Analytics measurement ID (format: G-
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+bing_site_verification: EFD667D3D31E1B9BB3E714ADCE472409 # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
