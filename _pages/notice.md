@@ -5,7 +5,7 @@ title: Notice
 description: 
 notification: true 
 nav: true
-nav_order: 9
+nav_order: 10
 ---
 
 * **[2024-12-18]** Our NeurIPS workshop has successfully finished now. Thanks a lot to our presenters for your great work! Our presentation slides for opening and closing remarks are available at [here](https://drive.google.com/file/d/1Fr6jKUS4Eb-ZppYklNFcgFIkmYDuDc7M/view?usp=sharing). The recordings of presentations can also be found at the [NeurIPS workshop website](https://neurips.cc/virtual/2024/competition/84788).
