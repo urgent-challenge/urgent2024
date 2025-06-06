@@ -6,13 +6,13 @@ subtitle: Transfer Learning, Domain Adaptation, Bio Signal, Brain Decoding, Elec
 
 profile:
   align: right
-  image: 
+  image:
   image_circular: false # crops the image to make it circular
   address: >
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 bibliography: about.bib
 ---
@@ -32,7 +32,6 @@ The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance 
 
 Check the complete proposal [here](https://eeg2025.github.io/assets/files/proposal.pdf)
 
-
 ## Competition Tasks
 
 <div style="padding: 20px; text-align: center;">
@@ -43,9 +42,11 @@ Check the complete proposal [here](https://eeg2025.github.io/assets/files/propos
 </div>
 
 ### Task 1: Cross-Task Transfer Learning
+
 Participants will train models on passive EEG tasks (Resting State, Surround Suppression, Movie Watching) and evaluate their performance on active tasks (Contrast Change Detection, Sequence Learning, Symbol Search). The goal is to develop models that can effectively transfer knowledge across different cognitive tasks.
 
 ### Task 2: Subject Invariance Representation
+
 Teams will develop models that can predict clinical factors (p-factor, internalizing, externalizing, and attention) while maintaining robustness across different subjects. This task focuses on creating subject-invariant representations that generalize well to unseen individuals.
 
 ## Dataset
@@ -53,11 +54,13 @@ Teams will develop models that can predict clinical factors (p-factor, internali
 The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/content/10.1101/2024.10.03.615261v2), [blog post](https://neuromechanist.github.io/data/hbn/)), which includes EEG recordings from over 3,000 participants across six distinct cognitive tasks:
 
 ### Passive Tasks
+
 - **Resting State (RS)**: Eyes open/closed conditions with fixation cross
 - **Surround Suppression (SuS)**: Four flashing peripheral disks with contrasting background
 - **Movie Watching (MW)**: Four short films with different themes
 
 ### Active Tasks
+
 - **Contrast Change Detection (CCD)**: Identifying dominant contrast in co-centric flickering grated disks
 - **Sequence Learning (SL)**: Memorizing and reproducing sequences of flashed circles
 - **Symbol Search (SyS)**: Computerized version of WISC-IV subtest
@@ -66,18 +69,18 @@ Each participant's data is accompanied by four psychopathology dimensions derive
 
 ## Workshop
 
-Top-ranking teams will be invited to present their work at a dedicated workshop during the NeurIPS 2025 conference (December 14-15, 2025). 
+Top-ranking teams will be invited to present their work at a dedicated workshop during the NeurIPS 2025 conference (December 14-15, 2025).
 
 ## Motivation
 
 EEG decoding faces significant challenges due to signal heterogeneity from various factors like non-stationarity, noise sensitivity, inter-subject morphological differences, varying experimental paradigms, and differences in sensor placement. While recent advances in machine learning have shown promise, there remains a critical need for models that can generalize across different subjects and tasks without expensive recalibration.
 
 This competition aims to address these challenges by:
+
 1. Providing a large-scale, diverse dataset for evaluating model generalization
 2. Encouraging the development of robust, transferable EEG decoding methods
 3. Establishing benchmarks for cross-task and cross-subject performance
 4. Fostering collaboration between machine learning and neuroscience communities
-
 
 ## Institution Organization
 
@@ -126,13 +129,20 @@ This competition aims to address these challenges by:
         <div style="font-size: 0.95em;">Swartz Center for Computational Neuroscience, UCSD</div>
     </div>
     <div style="max-width: 160px; text-align: center; margin: 10px;">
+      <a href="https://neurotechlab.socsci.ru.nl/author/pierre-guetschel/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
         <img src="https://eeg2025.github.io/assets/people/pierre.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Pierre Guetschel" />
         <div style="font-weight: bold; margin-top: 10px;">Pierre Guetschel</div>
         <div style="font-size: 0.95em;">Donders Institute, Radboud University</div>
+      </a>
     </div>
     <div style="max-width: 160px; text-align: center; margin: 10px;">
         <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
         <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
         <div style="font-size: 0.95em;">UC San Diego</div>
+    </div>
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/arnaud.jpg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Arnaud Delorme" />
+        <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
+        <div style="font-size: 0.95em;">CNRS, IONS, UCSD</div>
     </div>
 </div>

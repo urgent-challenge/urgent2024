@@ -34,6 +34,11 @@ nav_order: 9
         <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
         <div style="font-size: 0.95em;">Assistant Project Scientist at UC San Diego. Led HBN-EEG data curation and annotation.</div>
     </div>
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <img src="https://eeg2025.github.io/assets/people/arnaud.jpg" style="width: 100%; max-width: 135px; border-radius: 8px;" alt="Arnaud Delorme" />
+        <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
+        <div style="font-size: 0.95em;">Leads the EEGLAB project, Research director at CNRS, IONS, Research Scientist at UCSD</div>
+    </div>
 </div>
 
 ## Strategic Oversight
@@ -43,7 +48,6 @@ nav_order: 9
 - **Michael P. Milham** - Director for Center of Biomedical Imaging and Neuromodulation at Nathan S. Kline Institute. Expert in neuroimaging research.
 - **Alexandre Gramfort** - Senior Research Scientist at Meta Reality Labs. Expert in machine learning for biosignal processing.
 - **Jean-Remi King** - Research Scientist at Meta AI, leading the Brain & AI team. Specializes in brain decoding.
-- **Arnaud Delorme** - Leads the EEGLAB project. Research focuses on advanced EEG methodologies and AI integration.
 
 ## Domain Experts
 - **Scott Makeig** - Pioneer in EEG analysis and development of Independent Component Analysis (ICA) for brain signal decomposition.
