@@ -82,7 +82,7 @@ This competition aims to address these challenges by:
 3. Establishing benchmarks for cross-task and cross-subject performance
 4. Fostering collaboration between machine learning and neuroscience communities
 
-## Institution Organization
+## Organizing Institutions
 
 <div style="padding: 20px; text-align: center;">
   <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
