@@ -73,7 +73,7 @@ Demographic variables available in the dataset include **age**, **sex** (male/fe
 - Seyed Yahya Shirazi, Alexandre Franco, Mauricio Scopel Hoffmann, Nathalia Esper, Dung Truong,
 Arnaud Delorme, Michael Milham, and Scott Makeig. HBN-EEG: The FAIR implementation of the
 healthy brain network (HBN) electroencephalography dataset. bioRxiv, page 2024.10.03.615261,
-3 October 2024. doi: 10.1101/2024.10.03.615261.
+3 October 2024. doi: [10.1101/2024.10.03.615261](https://doi.org/10.1101/2024.10.03.615261).
 
 
 <style>
