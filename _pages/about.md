@@ -25,10 +25,10 @@ bibliography: about.bib
     </h1>
 </div>
 
-The 2025 EEG Decoding Challenge: From Cross-Task to Learning Subject Invariance Representation for EEG Decoding is a biosignal challenge accepted to the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CallForCompetitions). This competition aims to advance the field of EEG decoding by addressing two critical challenges:
+The 2025 EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding is a biosignal challenge accepted to the [**NeurIPS 2025 Competition Track**](https://neurips.cc/Conferences/2025/CallForCompetitions). This competition aims to advance the field of EEG decoding by addressing two critical challenges:
 
 1. **Cross-Task Transfer Learning**: Developing models that can effectively transfer knowledge from passive EEG tasks to active tasks
-2. **Subject Invariance Representation**: Creating robust representations that generalize across different subjects while predicting clinical factors
+2. **Subject Invariant Representation**: Creating robust representations that generalize across different subjects while predicting clinical factors
 
 Check the complete proposal [here](https://eeg2025.github.io/assets/files/proposal.pdf)
 
@@ -36,8 +36,8 @@ Check the complete proposal [here](https://eeg2025.github.io/assets/files/propos
 
 <div style="padding: 20px; text-align: center;">
   <img alt="introduction" src="https://eeg2025.github.io/assets/img/workflow.png" style="max-width: 100%;" />
-  <p style="text-align: left; margin-top: 10px; font-family: sans-serif; font-size: 0.9e">
-    <b>Figure 1</b>: HBN-EEG Dataset and Data split. <b>A.</b> EEG is recorded using a 128-channel system during active tasks (i.e., with user input) or passive tasks. <b>B.</b> The psychopathology and demographic factors. <b>C.</b> The datasets split into Train, Test and Validation. Details in <b><a href="https://eeg2025.github.io/assets/files/proposal.pdf">subsection 1.2 for the proposal.</a></b>
+  <p style="text-align: left; margin-top: 10px; font-family: sans-serif; font-size: 0.9em">
+    <b>Figure 1</b>: HBN-EEG Dataset and Data split. <b>A.</b> EEG is recorded using a 128-channel system during active tasks (i.e., with user input) or passive tasks. <b>B.</b> The psychopathology and demographic factors. <b>C.</b> The dataset split into Train, Test, and Validation. Details in <b><a href="https://eeg2025.github.io/assets/files/proposal.pdf">subsection 1.2 of the proposal.</a></b>
   </p>
 </div>
 
@@ -45,7 +45,7 @@ Check the complete proposal [here](https://eeg2025.github.io/assets/files/propos
 
 This supervised learning challenge combines regression and classification objectives. Participants will predict behavioral performance metrics (response time via regression and success rate via classification) from an active experimental paradigm (Contrast Change Detection, CCD) using EEG data from a passive paradigm (Surround Suppression, SuS). Teams can leverage multiple datasets and experimental paradigms to train their models, utilizing unsupervised or self-supervised pretraining to capture latent EEG representations, then fine-tuning for the specific supervised objectives to achieve generalization across subjects and cognitive paradigms. See the [Starter Kit](baseline.md) for more details.
 
-### Challenge 2: Psychopathology Factor Prediction (Subject Invariance Representation)
+### Challenge 2: Psychopathology Factor Prediction (Subject Invariant Representation)
 
 This supervised regression challenge requires teams to predict four continuous psychopathology scores (p-factor, internalizing, externalizing, and attention) from EEG recordings across multiple experimental paradigms. Teams can employ unsupervised or self-supervised pretraining strategies to learn generalizable neural representations, then adapt these foundation models for the regression targets while maintaining robustness across different subjects and experimental conditions. See the [Starter Kit](baseline.md) for more details.
 
@@ -65,7 +65,7 @@ The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/conten
 - **Sequence Learning (SL)**: Memorizing and reproducing sequences of flashed circles
 - **Symbol Search (SyS)**: Computerized version of WISC-IV subtest
 
-Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL), and demographic information, including age, sex, and handedness. Data is in the BIDS (Brain Imaging Data Structure) format.
+Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL) and demographic information, including age, sex, and handedness. Data is in the BIDS (Brain Imaging Data Structure) format.
 
 ## Workshop
 

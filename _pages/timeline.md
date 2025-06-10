@@ -25,8 +25,8 @@ nav_order: 2
 - Leaderboard for validation set performance
 - Baseline models provided for reference
 
-###  Details about  Final Phase
+### Details about Final Phase
 - Evaluation on unreleased test set (HBN Release 12)
 - Limited number of submissions per day
 - Final rankings and scores released after deadline
-- Teams must submit 2-page document describing methods, analysis, and discussion
+- Teams must submit a 2-page document describing methods, analysis, and discussion

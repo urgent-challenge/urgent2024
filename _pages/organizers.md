@@ -32,12 +32,12 @@ nav_order: 9
     <div style="max-width: 160px; text-align: center; margin: 5px;">
         <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
         <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
-        <div style="font-size: 0.95em;">Assistant Project Scientist at UC San Diego. Led HBN-EEG data curation and annotation.</div>
+        <div style="font-size: 0.95em;">Assistant Project Scientist at UC San Diego. Lead of the HBN-EEG data curation and annotation.</div>
     </div>
     <div style="max-width: 160px; text-align: center; margin: 5px;">
         <img src="https://eeg2025.github.io/assets/people/arnaud.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Arnaud Delorme" />
         <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
-        <div style="font-size: 0.95em;">Leads the EEGLAB project, Research director at CNRS, IONS, Research Scientist at UCSD</div>
+        <div style="font-size: 0.95em;">Lead of the EEGLAB project, Research director at CNRS, IONS, Research Scientist at UCSD</div>
     </div>
 </div>
 

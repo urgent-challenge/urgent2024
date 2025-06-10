@@ -8,14 +8,12 @@ nav_order: 4
 
 ---
 
+The rules provided to contestants are as follows:
 
-The rules that will be provided to the contestants are the following:
-
--  Contestants are allowed and encouraged to use any datasets to pre-train.
-- Contestant submit their code during the inference stage, this is a code submission competition.
-- Related members from the organising team can participate, but are ineligible for prizes.
-- The top 10th teams will have their code release after the final submission.
-
+- Contestants are allowed and encouraged to use any datasets for pre-training.
+- Contestants must submit their code during the inference stage; this is a code submission competition.
+- Related members from the organizing team can participate but are ineligible for prizes.
+- The top 10 teams will have their code released after the final submission.
 
 ## Evaluation Criteria
 
