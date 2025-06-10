@@ -191,6 +191,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jektex
 
 # Sitemap settings
 defaults:
