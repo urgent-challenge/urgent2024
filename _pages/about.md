@@ -41,13 +41,13 @@ Check the complete proposal [here](https://eeg2025.github.io/assets/files/propos
   </p>
 </div>
 
-### Task 1: Cross-Task Transfer Learning
+### Challenge 1: Cross-Task Transfer Learning
 
-Participants will train models on passive EEG tasks (Resting State, Surround Suppression, Movie Watching) and evaluate their performance on active tasks (Contrast Change Detection, Sequence Learning, Symbol Search). The goal is to develop models that can effectively transfer knowledge across different cognitive tasks.
+This supervised learning challenge combines regression and classification objectives. Participants will predict behavioral performance metrics (response time via regression and success rate via classification) from an active experimental paradigm (Contrast Change Detection, CCD) using EEG data from a passive paradigm (Surround Suppression, SuS). Teams can leverage multiple datasets and experimental paradigms to train their models, utilizing unsupervised or self-supervised pretraining to capture latent EEG representations, then fine-tuning for the specific supervised objectives to achieve generalization across subjects and cognitive paradigms.
 
-### Task 2: Subject Invariance Representation
+### Challenge 2: Psychopathology Factor Prediction (Subject Invariance Representation)
 
-Teams will develop models that can predict clinical factors (p-factor, internalizing, externalizing, and attention) while maintaining robustness across different subjects. This task focuses on creating subject-invariant representations that generalize well to unseen individuals.
+This supervised regression challenge requires teams to predict four continuous psychopathology scores (p-factor, internalizing, externalizing, and attention) from EEG recordings across multiple experimental paradigms. Teams can employ unsupervised or self-supervised pretraining strategies to learn generalizable neural representations, then adapt these foundation models for the regression targets while maintaining robustness across different subjects and experimental conditions.
 
 ## Dataset
 
