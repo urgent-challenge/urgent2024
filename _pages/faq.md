@@ -7,4 +7,6 @@ nav: true
 nav_order: 7
 ---
 
-Please make question at: [neurips2025-eeg-competition@googlegroups.com](mailto:neurips2025-eeg-competition@googlegroups.com)
+We will update the FAQ here.
+
+In the meantime, please visit the challenge Google Group to see if other participants have faced similar issues or to ask questions (group is public, but requires membership to post): https://groups.google.com/u/2/g/neurips2025-eeg-competition
