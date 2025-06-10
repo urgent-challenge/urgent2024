@@ -164,6 +164,8 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+      # Use Jektex for math rendering
+    math_engine: katex
 
 # Includes & excludes
 include: ['_pages']
