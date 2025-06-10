@@ -29,7 +29,7 @@ For Challenge 1, participants will have access to the following data for validat
 - Response time relative to contrast change onset (regression target)
 - Success rate/hit accuracy (classification target)
 
-Formally, let **X** ∈ ℝ^(c×t) be an EEG recording segment with c=128 channels and t time steps, and **P** ∈ ℝ^7 be subject's traits including 3 demographic attributes and 4 psychological factors. Participants can choose which data modalities to utilize in their models.
+Formally, let **X** ∈ ℝ^(c×t) be an EEG recording segment with c=128 channels and t time steps, and **P** ∈ ℝ^7 be subject's traits including 3 demographic attributes and 4 psychological factors. Participants can choose which data modalities and features from **X** and **P** to utilize in their models.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="https://eeg2025.github.io/assets/img/CCD_sequence.png" alt="CCD Trial Sequence" style="max-width: 80%; height: auto;">
