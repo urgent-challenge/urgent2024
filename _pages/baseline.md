@@ -32,7 +32,7 @@ For Challenge 1, participants will have access to the following data for validat
 Formally, let **X** ∈ ℝ^(c×t) be an EEG recording segment with c=128 channels and t time steps, and **P** ∈ ℝ^7 be subject's traits including 3 demographic attributes and 4 psychological factors. Participants can choose which data modalities to utilize in their models.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="https://eeg2025.github.io/assets/img/ccd_sequence.png" alt="CCD Trial Sequence" style="max-width: 80%; height: auto;">
+  <img src="https://eeg2025.github.io/assets/img/CCD_sequence.png" alt="CCD Trial Sequence" style="max-width: 80%; height: auto;">
   <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
     <strong>Figure:</strong> Exemplar Contrast Change Detection (CCD) trial sequence showing the 2-second pre-trial epochs (hatched regions) that will be provided as input data for Challenge 1.
   </p>
