@@ -29,7 +29,7 @@ For Challenge 1, participants will have access to the following data for validat
 - Response time relative to contrast change onset (regression target)
 - Success rate/hit accuracy (classification target)
 
-Formally, let **X** ∈ ℝ^(c×t) be an EEG recording segment with c=128 channels and t time steps, and **P** ∈ ℝ^7 be subject's traits including 3 demographic attributes and 4 psychological factors. Participants can choose which data modalities and features from **X** and **P** to utilize in their models.
+Formally, let $X_1 \in \mathbb{R}^{c \times n \times t_1}$ denote a participant's EEG recording during the CCD task (total 3 runs), where $c = 128$ channels, $n \approx 70$ epochs, and $t_1 = 2$ seconds (epoch length). Let $X_2 \in \mathbb{R}^{c \times t_2}$ represent a participant's EEG recording during the SuS task (total 2 runs), where $c = 128$ channels and $t_2$ is the total number of time samples. Let $P \in \mathbb{R}^7$ be the subject's traits, including 3 demographic attributes and 4 psychological factors. Participants SHOULD use $X_1$ but can choose to use $X_2$ and $P$ as additional data modalities and features to train their models or to use at the inference time.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="https://eeg2025.github.io/assets/img/CCD_sequence.png" alt="CCD Trial Sequence" style="max-width: 80%; height: auto;">
@@ -58,6 +58,11 @@ For Challenge 2, participants will have access to the following data for validat
 - **Attention**: Focus and distractibility dimension (continuous score)
 
 All psychopathology factors are derived from Child Behavior Checklist (CBCL) responses using a bifactor model, providing orthogonal, privacy-preserving dimensional measures of mental health.
+
+Formally, let $X \in \mathbb{R}^{c \times t}$ denote a participant's EEG recording across multiple cognitive tasks, where $c = 128$ channels and $t$ is the total number of time samples. Let $D \in \mathbb{R}^3$ represent the subject's demographics, including Age, sex (gender), and handedness. Participants should use $X$ and potentially $D$ to train their models for predicting the target variables $P \in \mathbb{R}^4$, including p-factor, internalizing, externalizing, and attention.
+
+### Task events
+Most tasks also include rich event information, including start and stop of the stimulus presentation, responses, and other task-specific events annotated in HED (Hierarchical Event Descriptor) format. Participants can use this information to train their models or to use at the inference time for both challenges.
 
 ---
 
