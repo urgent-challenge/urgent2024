@@ -30,7 +30,7 @@ The 2025 EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding
 1. **Cross-Task Transfer Learning**: Developing models that can effectively transfer knowledge from passive EEG tasks to active tasks
 2. **Subject Invariant Representation**: Creating robust representations that generalize across different subjects while predicting clinical factors
 
-Check the complete proposal [here](https://eeg2025.github.io/assets/files/proposal.pdf)
+Check out the Challenge paper on arXiv: [10.48550/arXiv.2506.19141](https://arxiv.org/abs/2506.19141)
 
 ## Competition Tasks
 
