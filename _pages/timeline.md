@@ -14,7 +14,7 @@ nav_order: 2
 | 15/09/2025 | **Final Phase Begins**  |
 | 31/10/2025 | **Competition Ends** |
 | 30/11/2025 | Competition reports and analysis paper |
-| 14-15/12/2025 | **NeurIPS Workshop** - Competition session and keynote on lessons learned |
+| 6-7/12/2025 | **NeurIPS Workshop** - Competition session and keynote on lessons learned |
 {: .table}
 {: .table-striped}
 

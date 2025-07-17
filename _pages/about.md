@@ -67,9 +67,14 @@ The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/conten
 
 Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL) and demographic information, including age, sex, and handedness. Data is in the BIDS (Brain Imaging Data Structure) format.
 
-## Workshop
+## Awards
 
-Top-ranking teams will be invited to present their work at a dedicated workshop during the NeurIPS 2025 conference (December 14-15, 2025).
+Top-ranking teams will be awarded with the following prizes:
+
+- <i class="fa-solid fa-trophy"></i> **Spotlight Talk** for the first team at the [2025 NeurIPS Workshop "Foundation Models for the Brain and Body"](https://brainbodyfm-workshop.github.io) to present their work (December 6-7, 2025),
+- <i class="fa-solid fa-trophy"></i> **Cash prizes** of 2500$ each for the top 3 teams,
+- <i class="fa-solid fa-trophy"></i> **Travel costs** covered for the main author of the top 3 teams,
+- <i class="fa-solid fa-trophy"></i> **Registration fees** for the whole NeurIPS 2025 conference covered for the main author of the top 3 teams.
 
 ## Motivation
 
