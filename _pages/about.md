@@ -67,9 +67,9 @@ The competition uses the HBN-EEG dataset ([paper](https://www.biorxiv.org/conten
 
 Each participant's data is accompanied by four psychopathology dimensions derived from the Child Behavior Checklist (CBCL) and demographic information, including age, sex, and handedness. Data is in the BIDS (Brain Imaging Data Structure) format.
 
-## Workshop
+## Spotlight Talk Award
 
-Top-ranking teams will be invited to present their work at a dedicated workshop during the NeurIPS 2025 conference (December 14-15, 2025).
+Top-ranking teams will be invited to present their work in a spotlight talk at the [2025 NeurIPS Workshop "Foundation Models for the Brain and Body"](https://brainbodyfm-workshop.github.io) (December 6-7, 2025).
 
 ## Motivation
 
