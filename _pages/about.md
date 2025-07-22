@@ -71,10 +71,10 @@ Each participant's data is accompanied by four psychopathology dimensions derive
 
 Top-ranking teams will be awarded with the following prizes:
 
-- <i class="fa-solid fa-trophy"></i> **Spotlight Talk** for the first team at the [2025 NeurIPS Workshop "Foundation Models for the Brain and Body"](https://brainbodyfm-workshop.github.io) to present their work (December 6-7, 2025),
-- <i class="fa-solid fa-trophy"></i> **Cash prizes** of 2500$ each for the top 3 teams,
-- <i class="fa-solid fa-trophy"></i> **Travel costs** covered for the main author of the top 3 teams,
-- <i class="fa-solid fa-trophy"></i> **Registration fees** for the whole NeurIPS 2025 conference covered for the main author of the top 3 teams.
+- **Spotlight Talk** for the first team at the [2025 NeurIPS Workshop "Foundation Models for the Brain and Body"](https://brainbodyfm-workshop.github.io) to present their work (December 6-7, 2025)
+- **Cash prizes** of 2500$ each for the top 3 teams (Sponsored by Meta)
+- **Travel costs** covered for the main author of the top 3 teams (Sponsored by Meta)
+- **Registration fees** for the whole NeurIPS 2025 conference covered for the main author of the top 3 teams
 
 ## Motivation
 
@@ -86,6 +86,14 @@ This competition aims to address these challenges by:
 2. Encouraging the development of robust, transferable EEG decoding methods
 3. Establishing benchmarks for cross-task and cross-subject performance
 4. Fostering collaboration between machine learning and neuroscience communities
+
+## Sponsors
+
+<div style="padding: 20px; text-align: center;">
+  <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+    <img src="https://eeg2025.github.io/assets/logos/meta.png" style="max-width: 50%; margin: 10px;" alt="Meta Logo" />
+  </div>
+</div>
 
 ## Organizing Institutions
 
