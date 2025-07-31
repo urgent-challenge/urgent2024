@@ -53,6 +53,11 @@
         </button>
       </div>
     </div>
+    <script>
+      document.querySelector('.banner__close').addEventListener('click', function() {
+        document.querySelector('.banner').style.display = 'none';
+      });
+    </script>
 
     <!-- Header -->
     {% include scripts/jquery.html %}
