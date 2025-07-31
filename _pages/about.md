@@ -16,21 +16,6 @@ social: false # includes social icons at the bottom of the page
 
 bibliography: about.bib
 ---
-<div class="banner">
-<div class="banner__content">
-  <div class="banner__text">
-    <strong>Update:</strong> the competition start date has been moved to <strong>August 15</strong>. The organisation team is working hard to offer you the best start-kit possible. In the meantime, you can already familiarize yourself with <a href="https://eeg2025.github.io/data/">the dataset</a>.
-  </div>
-  <button class="banner__close" type="button" data-dismiss="banner" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-</div>
-<script>
-document.querySelector('.banner__close').addEventListener('click', function() {
-  document.querySelector('.banner').style.display = 'none';
-});
-</script>
 
 <!-- # EEG Foundation Challenge: From Cross-Task to Cross-Subject EEG Decoding -->
 <div style="display: flex; align-items: center;">
