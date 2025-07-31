@@ -10,7 +10,7 @@ nav_order: 2
 
 |   **Date**  |         **Event**          |
 |:---------------------------------:|:---------------------------|
-| 08/08/2025 | **Warm-up Phase Begins**  |
+| 15/08/2025 | **Warm-up Phase Begins**  |
 | 15/09/2025 | **Final Phase Begins**  |
 | 31/10/2025 | **Competition Ends** |
 | 30/11/2025 | Competition reports and analysis paper |
