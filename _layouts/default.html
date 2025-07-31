@@ -12,7 +12,6 @@
   <style>
     .banner {
       background: #ff7a34;
-      top: 87px;
     }
   
     .banner__content {
@@ -43,21 +42,6 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <div class="banner">
-      <div class="banner__content">
-        <div class="banner__text">
-          <strong>Update:</strong> the competition start date has been moved to <strong>August 15</strong>. The organisation team is working hard to offer you the best start-kit possible. In the meantime, you can already familiarize yourself with <a href="https://eeg2025.github.io/data/">the dataset</a>.
-        </div>
-        <button class="banner__close" type="button" data-dismiss="banner" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-    </div>
-    <script>
-      document.querySelector('.banner__close').addEventListener('click', function() {
-        document.querySelector('.banner').style.display = 'none';
-      });
-    </script>
 
     <!-- Header -->
     {% include scripts/jquery.html %}
