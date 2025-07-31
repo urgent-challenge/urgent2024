@@ -23,6 +23,32 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .profile img { width: 100%; }
 
+/****************************************************************************** Banner */
+.banner{
+    background: #ff7a34;
+}
+.banner__content {
+    max-width: 800px;
+    padding: 16px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner__text {
+    font-size: 1.4;
+    flex-grow: 1;
+}
+.banner__close {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.banner__text,
+.banner__close {
+    color: #ffffff;
+}
+
 /****************************************************************************** Publications */
 /***************************************************************************** Projects */
 /******************************************************************************* Styles for the base elements of the theme. */
