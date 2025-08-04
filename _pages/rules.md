@@ -10,6 +10,7 @@ nav_order: 4
 
 The rules provided to contestants are as follows:
 
+- **Evaluation and testing will be done on the downsampled data.** To ensure timely evaluation, we will downsample the data to 100 Hz after filtering the data to the 0.5-50 Hz range. The down sampled datasets will be used for evaluation and testing. The downsmapling script is available on the [downsample-datasets](https://github.com/eeg2025/downsample-datasets) repository.
 - Contestants are allowed and encouraged to use any datasets for pre-training. However, they must clearly mention and document any additional data sources used in their submission.
 - Contestants are allowed to use existing foundation models, but they must clearly mention and document which pre-trained models were used and how they were fine-tuned in their submission.
 - Contestants must submit their code during the inference stage; this is a code submission competition.
