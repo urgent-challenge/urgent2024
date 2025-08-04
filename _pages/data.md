@@ -18,6 +18,14 @@ bibliography: data.bib
     - [Bifactor Model and Advantages](#bifactor-model-and-advantages)
     - [Demographic Information](#demographic-information)
 - [Downloading the Data](#downloading-the-data)
+    - [Mini Releases (for initial exploration)](#mini-releases-for-initial-exploration)
+    - [NEMAR.org](#nemarorg)
+        - [Option 1: NEMAR.org direct download](#option-1-nemarorg-direct-download)
+        - [Option 2: EEGDash API](#option-2-eegdash-api)
+    - [OpenNeuro and its API](#openneuro-and-its-api)
+        - [Option 3: OpenNeuro direct download](#option-3-openneuro-direct-download)
+        - [Option 4 and 5: OpenNeuro API](#option-4-and-5-openneuro-api)
+    - [Option 6: Amazon S3](#option-6-amazon-s3)
 - [References](#references)
 
 ## Data description
