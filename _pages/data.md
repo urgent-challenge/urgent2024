@@ -9,6 +9,25 @@ nav_order: 3
 bibliography: data.bib
 ---
 
+**Table of Contents**
+
+- [Data description](#data-description)
+  - [Task-specific procedures](#task-specific-procedures)
+  - [Psychopathology Dimensions and Demographics](#psychopathology-dimensions-and-demographics)
+    - [Understanding the Four Psychopathology Dimensions](#understanding-the-four-psychopathology-dimensions)
+    - [Bifactor Model and Advantages](#bifactor-model-and-advantages)
+    - [Demographic Information](#demographic-information)
+- [Downloading the Data](#downloading-the-data)
+    - [Mini Releases (for initial exploration)](#mini-releases-for-initial-exploration)
+    - [NEMAR.org](#nemarorg)
+        - [Option 1: NEMAR.org direct download](#option-1-nemarorg-direct-download)
+        - [Option 2: EEGDash API](#option-2-eegdash-api)
+    - [OpenNeuro and its API](#openneuro-and-its-api)
+        - [Option 3: OpenNeuro direct download](#option-3-openneuro-direct-download)
+        - [Option 4 and 5: OpenNeuro API](#option-4-and-5-openneuro-api)
+    - [Option 6: Amazon S3](#option-6-amazon-s3)
+- [References](#references)
+
 ## Data description
 
 The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (see table below). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL). These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
@@ -68,7 +87,96 @@ Demographic variables available in the dataset include **age**, **sex** (male/fe
 
 <img src="https://eeg2025.github.io/assets/img/image-5.jpg"  style="max-width: 100%;"/>
 
-### Reference:
+## Downloading the Data
+
+The public part of the competition dataset contains 11 public releases, each between 91 and 245 GB. 
+To facilitate downloading this large amount of data, we provide multiple different solutions, such that all setups and personal preferences are accommodated.
+If you encounter difficulties downloading the data with one solution, we suggest you try using another one before filing an issue.
+In addition, we provide **mini releases** that can be used for preliminary exploration of the data.
+
+### Mini Releases (for initial exploration)
+We provide a *mini release* for each release, that can be used for preliminary exploration of the data. 
+Each mini release contains only 20 subjects, and represents approximately 15 GB of data.
+These mini releases are available both as zip files and as Google Drive folders. 
+
+The download links for the mini releases are available on the [dataset page](https://neuromechanist.github.io/data/hbn/).
+
+### NEMAR.org
+The releases are hosted on NEMAR. The releases 1-11 have the following names on NEMAR: 
+
+```
+ds005505, ds005506, ds005507, ds005508, ds005509, ds005510, ds005511, ds005512, ds005514, ds005515, ds005516
+```
+
+#### Option 1: NEMAR.org direct download
+Each release can be downloaded as a single Zip file using a direct download link. For example the link to the download page of the first release is:
+
+```
+https://nemar.org/dataexplorer/detail?dataset_id=ds005505
+```
+
+#### Option 2: EEGDash API
+The [EEGDash](https://github.com/sccn/EEGDash) python API allows you to download the data programmatically. 
+For example, to download the first release, you can use the following code snippet:
+```python
+from eegdash import EEGDashDataset
+
+dataset = EEGDashDataset({
+    "dataset": "ds005505", 
+    # "subject": "NDARAG340ERT",          # to download a specific subject
+    # "task": "contrastChangeDetection",  # or a specific task
+    # "run": 1,                           # or a specific run
+})
+```
+
+### OpenNeuro and its API
+The releases are also hosted on OpenNeuro. They have the same names as on NEMAR.org.
+
+#### Option 3: OpenNeuro direct download
+On OpenNeuro, the releases can also be downloaded using direct download links. For example the link to the download page of the first release is:
+
+```
+https://openneuro.org/datasets/ds005505
+```
+
+#### Option 4 and 5: OpenNeuro API
+
+The [openneuro-py](https://pypi.org/project/openneuro-py/) library offers both a python API and a command line interface to download the data programmatically.
+
+**Python API:**
+```python
+import openneuro
+
+openneuro.download(dataset="ds005505")
+```
+
+**Command line interface:**
+```bash
+openneuro-py download --dataset=ds005505
+```
+
+
+### Option 6: Amazon S3
+
+Finally, the releases are also hosted on Amazon S3. The releases can be found at the following S3 bucket:
+```
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R1
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R2
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R3
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R4
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R5
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R6
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R7
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R8
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R9
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R10
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R11
+```
+Having installed the [`AWS CLI`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you can download a dataset using this command: `aws s3 cp <s3_uri> <local_path> --recursive --no-sign-request`, where the `<s3_uri>` can be any of the s3 addresses above.
+
+For more details on how to download data from Amazon S3, please refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/download-objects.html) or use the AWS CLI tool.
+
+## Reference
 
 - Seyed Yahya Shirazi, Alexandre Franco, Mauricio Scopel Hoffmann, Nathalia Esper, Dung Truong,
 Arnaud Delorme, Michael Milham, and Scott Makeig. HBN-EEG: The FAIR implementation of the

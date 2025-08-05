@@ -36,7 +36,7 @@ A: Yes, you are more than welcome to use existing foundation models, but you mus
 ### **Data Access**
 
 **Q: Where can I access the competition dataset?**
-A: The HBN-EEG dataset is available on NEMAR.org and Amazon S3. For detailed download links and access information, please visit [dataset page](https://neuromechanist.github.io/data/hbn/).
+A: The HBN-EEG dataset is available on via multiple different platforms. You can find the download links and tutorials in the [data page](https://eeg2025.github.io/data/).
 
 **Q: Are there smaller datasets available for initial exploration?**
 A: Yes, mini datasets for each release are available for download. You can access these either as zip files or via Google Drive links provided on the [dataset page](https://neuromechanist.github.io/data/hbn/).
