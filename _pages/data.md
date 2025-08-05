@@ -172,6 +172,8 @@ s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R9
 s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R10
 s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R11
 ```
+Having installed the [`AWS CLI`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you can download a dataset using this command: `aws s3 cp <s3_uri> <local_path> --recursive --no-sign-request`, where the `<s3_uri>` can be any of the s3 addresses above.
+
 For more details on how to download data from Amazon S3, please refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/download-objects.html) or use the AWS CLI tool.
 
 ## References
