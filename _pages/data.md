@@ -109,7 +109,7 @@ ds005505, ds005506, ds005507, ds005508, ds005509, ds005510, ds005511, ds005512, 
 ```
 
 #### Option 1: NEMAR.org direct download
-Each release can be downloaded using a direct download link. For example the link to the download page of the first release is:
+Each release can be downloaded as a single Zip file using a direct download link. For example the link to the download page of the first release is:
 
 ```
 https://nemar.org/dataexplorer/detail?dataset_id=ds005505
