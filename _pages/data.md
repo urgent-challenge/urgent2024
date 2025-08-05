@@ -176,7 +176,7 @@ Having installed the [`AWS CLI`](https://docs.aws.amazon.com/cli/latest/userguid
 
 For more details on how to download data from Amazon S3, please refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/download-objects.html) or use the AWS CLI tool.
 
-## References
+## Reference
 
 - Seyed Yahya Shirazi, Alexandre Franco, Mauricio Scopel Hoffmann, Nathalia Esper, Dung Truong,
 Arnaud Delorme, Michael Milham, and Scott Makeig. HBN-EEG: The FAIR implementation of the
