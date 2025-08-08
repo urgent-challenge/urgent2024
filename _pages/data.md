@@ -28,7 +28,7 @@ bibliography: data.bib
     - [Amazon S3](#amazon-s3)
         - [Option 6: Amazon S3 raw signals](#option-6-amazon-s3-raw-signals)
         - [Option 7: Amazon S3 signals resampled at 100Hz](#option-7-amazon-s3-signals-resampled-at-100hz)
-- [References](#references)
+- [Reference](#reference)
 
 ## Data description
 
