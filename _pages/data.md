@@ -110,7 +110,17 @@ The download links for the mini releases are available on the [dataset page](htt
 The releases are hosted on NEMAR. The releases 1-11 have the following names on NEMAR: 
 
 ```
-ds005505, ds005506, ds005507, ds005508, ds005509, ds005510, ds005511, ds005512, ds005514, ds005515, ds005516
+ds005505
+ds005506
+ds005507
+ds005508
+ds005509
+ds005510
+ds005511
+ds005512
+ds005514
+ds005515
+ds005516
 ```
 
 #### Option 1: NEMAR.org direct download
