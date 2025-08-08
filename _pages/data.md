@@ -25,7 +25,9 @@ bibliography: data.bib
     - [OpenNeuro and its API](#openneuro-and-its-api)
         - [Option 3: OpenNeuro direct download](#option-3-openneuro-direct-download)
         - [Option 4 and 5: OpenNeuro API](#option-4-and-5-openneuro-api)
-    - [Option 6: Amazon S3](#option-6-amazon-s3)
+    - [Amazon S3](#amazon-s3)
+        - [Option 6: Amazon S3 raw signals](#option-6-amazon-s3-raw-signals)
+        - [Option 7: Amazon S3 signals resampled at 100Hz](#option-7-amazon-s3-signals-resampled-at-100hz)
 - [References](#references)
 
 ## Data description
@@ -92,7 +94,10 @@ Demographic variables available in the dataset include **age**, **sex** (male/fe
 The public part of the competition dataset contains 11 public releases, each between 91 and 245 GB. 
 To facilitate downloading this large amount of data, we provide multiple different solutions, such that all setups and personal preferences are accommodated.
 If you encounter difficulties downloading the data with one solution, we suggest you try using another one before filing an issue.
+
 In addition, we provide **mini releases** that can be used for preliminary exploration of the data.
+
+Finally, we also provide **resampled releases** where the signals have been resampled at 100Hz to facilitate download (see Amazon S3).
 
 ### Mini Releases (for initial exploration)
 We provide a *mini release* for each release, that can be used for preliminary exploration of the data. 
@@ -156,25 +161,45 @@ openneuro-py download --dataset=ds005505
 ```
 
 
-### Option 6: Amazon S3
+### Amazon S3
 
-Finally, the releases are also hosted on Amazon S3. The releases can be found at the following S3 bucket:
-```
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R1
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R2
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R3
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R4
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R5
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R6
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R7
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R8
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R9
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R10
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R11
-```
-Having installed the [`AWS CLI`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you can download a dataset using this command: `aws s3 cp <s3_uri> <local_path> --recursive --no-sign-request`, where the `<s3_uri>` can be any of the s3 addresses above.
+Finally, the releases are also hosted on Amazon S3. 
+Having installed the [`AWS CLI`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you can download a dataset using this command: `aws s3 cp <s3_uri> <local_path> --recursive --no-sign-request`, where the `<s3_uri>` can be any of the s3 addresses bellow.
 
 For more details on how to download data from Amazon S3, please refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/download-objects.html) or use the AWS CLI tool.
+
+#### Option 6: Amazon S3 raw signals
+The original (raw signals) releases can be found at the following S3 buckets:
+```
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R1/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R2/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R3/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R4/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R5/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R6/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R7/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R8/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R9/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R10/
+s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R11/
+```
+
+#### Option 7: Amazon S3 signals resampled at 100Hz
+Finally, to facilitate downloads, we also provide the releases with the signals resampled at 100Hz. 
+These resampled releases can be found at the following S3 buckets:
+```
+s3://nmdatasets/NeurIPS25/R1_L100/
+s3://nmdatasets/NeurIPS25/R2_L100/
+s3://nmdatasets/NeurIPS25/R3_L100/
+s3://nmdatasets/NeurIPS25/R4_L100/
+s3://nmdatasets/NeurIPS25/R5_L100/
+s3://nmdatasets/NeurIPS25/R6_L100/
+s3://nmdatasets/NeurIPS25/R7_L100/
+s3://nmdatasets/NeurIPS25/R8_L100/
+s3://nmdatasets/NeurIPS25/R9_L100/
+s3://nmdatasets/NeurIPS25/R10_L100/
+s3://nmdatasets/NeurIPS25/R11_L100/
+```
 
 ## Reference
 
