@@ -19,7 +19,7 @@
     /* Adjust banner positioning when navbar is fixed */
     body.fixed-top-nav .banner {
       position: fixed;
-      top: 56px; /* Height of the fixed navbar */
+      top: 66px; /* Height of the fixed navbar */
       left: 0;
       right: 0;
       z-index: 1025; /* Below navbar but above content */
@@ -27,12 +27,12 @@
     
     /* Add extra padding to body content when both fixed navbar and banner are present */
     body.fixed-top-nav.banner-visible {
-      padding-top: 156px; /* 56px navbar + 100px banner */
+      padding-top: 166px; /* 66px navbar + 100px banner */
     }
     
     /* Ensure original padding when banner is dismissed */
     body.fixed-top-nav:not(.banner-visible) {
-      padding-top: 56px; /* Original navbar padding */
+      padding-top: 66px; /* Original navbar padding */
     }
   
     .banner__content {
