@@ -17,6 +17,7 @@ nav_order: 6
 
 - This is a code submission competition
 - Teams must submit their code during the inference stage
+- Only one person (team leader) need to register and submit the code
 - Code must be complete and executable
 - The number of submissions per day will be limited to avoid overfitting the leaderboard
 - **The submissions are only for inference, no training is allowed.**
