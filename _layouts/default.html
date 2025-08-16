@@ -12,6 +12,27 @@
   <style>
     .banner {
       background: #1db71b;
+      position: relative;
+      z-index: 1030; /* Bootstrap's navbar z-index is 1030, so banner should be above it */
+    }
+  
+    /* Adjust banner positioning when navbar is fixed */
+    body.fixed-top-nav .banner {
+      position: fixed;
+      top: 56px; /* Height of the fixed navbar */
+      left: 0;
+      right: 0;
+      z-index: 1025; /* Below navbar but above content */
+    }
+    
+    /* Add extra padding to body content when both fixed navbar and banner are present */
+    body.fixed-top-nav.banner-visible {
+      padding-top: 156px; /* 56px navbar + 100px banner */
+    }
+    
+    /* Ensure original padding when banner is dismissed */
+    body.fixed-top-nav:not(.banner-visible) {
+      padding-top: 56px; /* Original navbar padding */
     }
   
     .banner__content {
@@ -20,7 +41,7 @@
       margin: 0 auto;
       display: flex;
       align-items: center;
-      min-height: 80px;
+      min-height: 100px;
       /* Ensures vertical centering and consistent height */
     }
   
@@ -34,6 +55,7 @@
       border: none;
       font-size: 1.5rem;
       cursor: pointer;
+      align-self: center;
     }
   
     .banner__content * {
@@ -43,7 +65,7 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} banner-visible">
     <div class="banner">
       <div class="banner__content">
         <div class="banner__text">
@@ -61,6 +83,7 @@
     <script>
     document.querySelector('.banner__close').addEventListener('click', function() {
       document.querySelector('.banner').style.display = 'none';
+      document.body.classList.remove('banner-visible');
     });
     </script>
 
