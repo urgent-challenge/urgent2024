@@ -16,15 +16,23 @@
   
     .banner__content {
       max-width: 1000px;
-      padding: 45px;
+      padding: 0 45px;
       margin: 0 auto;
       display: flex;
       align-items: center;
+      min-height: 80px;
+      /* Ensures vertical centering and consistent height */
     }
   
     .banner__text {
-      font-size: 1.4;
+      font-size: 1.1rem;
       flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding-top: 18px;
+      padding-bottom: 18px;
     }
   
     .banner__close {
@@ -32,6 +40,7 @@
       border: none;
       font-size: 1.5rem;
       cursor: pointer;
+      align-self: center;
     }
   
     .banner__content * {
@@ -43,18 +52,18 @@
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <div class="banner">
-    <div class="banner__content">
-      <div class="banner__text">
-        <div style="text-align: center;">
-          <strong>Update:</strong> The competition is now <strong>Open! 🎉</strong>.
-          Please go to <a href="https://www.codabench.org/competitions/9975/" style="text-decoration: underline;">the Codabench page</a> to register and get started.<br>
-          <strong>Note:</strong> You cannot submit code yet! We will release the starter kit in the next few days.
+      <div class="banner__content">
+        <div class="banner__text">
+          <div style="text-align: center; width: 100%;">
+            <strong>Update:</strong> The competition is now <strong>Open! 🎉</strong>.
+            Please go to <a href="https://www.codabench.org/competitions/9975/" style="text-decoration: underline;">the Codabench page</a> to register and get started.<br>
+            <strong>Note:</strong> You cannot submit code yet! We will release the starter kit in the next few days.
+          </div>
         </div>
+        <button class="banner__close" type="button" data-dismiss="banner" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <button class="banner__close" type="button" data-dismiss="banner" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
     </div>
     <script>
     document.querySelector('.banner__close').addEventListener('click', function() {
