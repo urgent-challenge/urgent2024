@@ -129,44 +129,47 @@ This competition aims to address these challenges by:
 
 ## Core Coordinator
 
-
 <div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px;">
   <div style="max-width: 160px; text-align: center; margin: 10px;">
-      <a href="https://bruaristimunha.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-          <img src="https://eeg2025.github.io/assets/people/bruno.png" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Bruno Aristimunha" />
-          <div style="font-weight: bold; margin-top: 10px;">Bruno Aristimunha</div>
-      </a>
-      <div style="font-size: 0.95em;">INRIA, University of Paris-Saclay</div>
+    <a href="https://bruaristimunha.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+      <img src="https://eeg2025.github.io/assets/people/bruno.png" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Bruno Aristimunha" />
+      <div style="font-weight: bold; margin-top: 10px;">Bruno Aristimunha</div>
+    </a>
+    <div style="font-size: 0.95em;">INRIA, University of Paris-Saclay</div>
   </div>
-    <div style="max-width: 160px; text-align: center; margin: 10px;">
-      <a href="https://neurotechlab.socsci.ru.nl/author/pierre-guetschel/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-        <img src="https://eeg2025.github.io/assets/people/pierre.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Pierre Guetschel" />
-        <div style="font-weight: bold; margin-top: 10px;">Pierre Guetschel</div>
-        <div style="font-size: 0.95em;">Donders Institute, Radboud University</div>
-      </a>
-    </div>
-    <div style="max-width: 160px; text-align: center; margin: 10px;">
-        <a href="https://sylvchev.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-        <img src="https://eeg2025.github.io/assets/people/sylvain.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Sylvain Chevallier" />
-        <div style="font-weight: bold; margin-top: 10px;">Sylvain Chevallier</div>
-        <div style="font-size: 0.95em;">LISN, INRIA TAU, CNRS, A&O Univ. Paris-Saclay</div>
-    </div>
-    <div style="max-width: 160px; text-align: center; margin: 10px;">
-          <a href="https://neuromechanist.github.io" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-        <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
-        <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
-        <div style="font-size: 0.95em;">UC San Diego</div>
-    </div>
-    <div style="max-width: 160px; text-align: center; margin: 10px;">
-          <a href="https://arnauddelorme.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
-        <img src="https://eeg2025.github.io/assets/people/arnaud.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Arnaud Delorme" />
-        <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
-        <div style="font-size: 0.95em;">CNRS, IONS, UCSD</div>
-    </div>
 
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <a href="https://neurotechlab.socsci.ru.nl/author/pierre-guetschel/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+      <img src="https://eeg2025.github.io/assets/people/pierre.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Pierre Guetschel" />
+      <div style="font-weight: bold; margin-top: 10px;">Pierre Guetschel</div>
+      <div style="font-size: 0.95em;">Donders Institute, Radboud University</div>
+    </a>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <a href="https://sylvchev.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+      <img src="https://eeg2025.github.io/assets/people/sylvain.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Sylvain Chevallier" />
+      <div style="font-weight: bold; margin-top: 10px;">Sylvain Chevallier</div>
+      <div style="font-size: 0.95em;">LISN, INRIA TAU, CNRS, A&amp;O Univ. Paris-Saclay</div>
+    </a>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <a href="https://neuromechanist.github.io" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+      <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
+      <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
+      <div style="font-size: 0.95em;">UC San Diego</div>
+    </a>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <a href="https://arnauddelorme.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+      <img src="https://eeg2025.github.io/assets/people/arnaud.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Arnaud Delorme" />
+      <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
+      <div style="font-size: 0.95em;">CNRS, IONS, UCSD</div>
+    </a>
+  </div>
 </div>
-
-
 
 ## Coordinators
 <div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px;">
