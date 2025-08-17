@@ -18,21 +18,23 @@ bibliography: data.bib
     - [Bifactor Model and Advantages](#bifactor-model-and-advantages)
     - [Demographic Information](#demographic-information)
 - [Downloading the Data](#downloading-the-data)
-    - [Mini Releases (for initial exploration)](#mini-releases-for-initial-exploration)
-    - [NEMAR.org](#nemarorg)
-        - [Option 1: NEMAR.org direct download](#option-1-nemarorg-direct-download)
-        - [Option 2: EEGDash API](#option-2-eegdash-api)
-    - [OpenNeuro and its API](#openneuro-and-its-api)
-        - [Option 3: OpenNeuro direct download](#option-3-openneuro-direct-download)
-        - [Option 4 and 5: OpenNeuro API](#option-4-and-5-openneuro-api)
-    - [Amazon S3](#amazon-s3)
-        - [Option 6: Amazon S3 raw signals](#option-6-amazon-s3-raw-signals)
-        - [Option 7: Amazon S3 signals resampled at 100Hz](#option-7-amazon-s3-signals-resampled-at-100hz)
+  - [Mini Releases (for initial exploration)](#mini-releases-for-initial-exploration)
+  - [NEMAR.org](#nemarorg)
+    - [Option 1: NEMAR.org direct download](#option-1-nemarorg-direct-download)
+    - [Option 2: EEGDash API](#option-2-eegdash-api)
+  - [OpenNeuro and its API](#openneuro-and-its-api)
+    - [Option 3: OpenNeuro direct download](#option-3-openneuro-direct-download)
+    - [Option 4 and 5: OpenNeuro API](#option-4-and-5-openneuro-api)
+  - [Amazon S3](#amazon-s3)
+    - [Option 6: Amazon S3 raw signals](#option-6-amazon-s3-raw-signals)
+    - [Option 7: Amazon S3 signals resampled at 100Hz](#option-7-amazon-s3-signals-resampled-at-100hz)
 - [Reference](#reference)
 
 ## Data description
 
 The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (see table below). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL). These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
+
+**Note:** All datasets are in the BIDS **RAW** format and are not pre-processed (except for the 100Hz resampled datasets, where the singals are first filtered to the 0.5-50 Hz range and then resampled at 100 Hz). Preprocessing is part of the competition. Teams are encouraged to use lightweight preprocessing methods (and if possible, GPU-accelerated methods) to save time and resources during the competition.
 
 More details about the **dataset download links**, task-specific procedures, video recordings of the experiment, and more can be found on **[the HBN-EEG dataset page](https://neuromechanist.github.io/data/hbn/)**.
 
@@ -195,7 +197,8 @@ s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R11/
 ```
 
 #### Option 7: Amazon S3 signals resampled at 100Hz
-Finally, to facilitate downloads, we also provide the releases with the signals resampled at 100Hz. 
+Finally, to facilitate downloads, we also provide the releases with the signals resampled at 100Hz. The resampling is done by filtering the signals to the 0.5-50 Hz range and then resampling at 100 Hz.
+
 These resampled releases can be found at the following S3 buckets:
 ```
 s3://nmdatasets/NeurIPS25/R1_L100/
