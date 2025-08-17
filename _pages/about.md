@@ -217,15 +217,15 @@ This competition aims to address these challenges by:
   </div>
 
   <div style="max-width: 160px; text-align: center; margin: 10px;">
-    <img src="https://eeg2025.github.io/assets/people-h180/king.png" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Jean-Remi King" />
-    <div style="font-weight: bold; margin-top: 10px;">Jean-Remi King</div>
-    <div style="font-size: 0.95em;">FAIR Brain &amp; AI, Meta, France</div>
-  </div>
-
-  <div style="max-width: 160px; text-align: center; margin: 10px;">
     <img src="https://eeg2025.github.io/assets/people-h180/marie_constance_corsi.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Marie-Constance Corsi" />
     <div style="font-weight: bold; margin-top: 10px;">Marie-Constance Corsi</div>
     <div style="font-size: 0.95em;">Inria NERV; Paris Brain Institute (ICM), France</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/king.png" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Jean-Remi King" />
+    <div style="font-weight: bold; margin-top: 10px;">Jean-Remi King</div>
+    <div style="font-size: 0.95em;">FAIR Brain &amp; AI, Meta, France</div>
   </div>
 
   <div style="max-width: 160px; text-align: center; margin: 10px;">
@@ -239,17 +239,16 @@ This competition aims to address these challenges by:
     <div style="font-weight: bold; margin-top: 10px;">Oren Shriki</div>
     <div style="font-size: 0.95em;">Ben-Gurion University of the Negev, Israel</div>
   </div>
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/scott_makeig.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Scott Makeig" />
+    <div style="font-weight: bold; margin-top: 10px;">Scott Makeig</div>
+    <div style="font-size: 0.95em;">SCCN; Institute for Neural Computation, UC San Diego, USA</div>
+  </div>
 
   <div style="max-width: 160px; text-align: center; margin: 10px;">
     <img src="https://eeg2025.github.io/assets/people-h180/pedro_valdes_sosa.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Pedro A. Valdés-Sosa" />
     <div style="font-weight: bold; margin-top: 10px;">Pedro A. Valdés-Sosa</div>
     <div style="font-size: 0.95em;">Cuban Neuroscience Center (CNEURO); Joint China-Cuba Lab (UESTC)</div>
-  </div>
-
-  <div style="max-width: 160px; text-align: center; margin: 10px;">
-    <img src="https://eeg2025.github.io/assets/people-h180/scott_makeig.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Scott Makeig" />
-    <div style="font-weight: bold; margin-top: 10px;">Scott Makeig</div>
-    <div style="font-size: 0.95em;">SCCN; Institute for Neural Computation, UC San Diego, USA</div>
   </div>
 
   <div style="max-width: 160px; text-align: center; margin: 10px;">
