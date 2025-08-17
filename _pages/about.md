@@ -126,7 +126,9 @@ This competition aims to address these challenges by:
   </div>
 </div>
 
-## Core Coordinators
+
+## Core Coordinator
+
 
 <div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px;">
   <div style="max-width: 160px; text-align: center; margin: 10px;">
@@ -137,11 +139,6 @@ This competition aims to address these challenges by:
       <div style="font-size: 0.95em;">INRIA, University of Paris-Saclay</div>
   </div>
     <div style="max-width: 160px; text-align: center; margin: 10px;">
-        <img src="https://eeg2025.github.io/assets/people/dung.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Dung Truong" />
-        <div style="font-weight: bold; margin-top: 10px;">Dung Truong</div>
-        <div style="font-size: 0.95em;">Swartz Center for Computational Neuroscience, UCSD</div>
-    </div>
-    <div style="max-width: 160px; text-align: center; margin: 10px;">
       <a href="https://neurotechlab.socsci.ru.nl/author/pierre-guetschel/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
         <img src="https://eeg2025.github.io/assets/people/pierre.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Pierre Guetschel" />
         <div style="font-weight: bold; margin-top: 10px;">Pierre Guetschel</div>
@@ -149,13 +146,112 @@ This competition aims to address these challenges by:
       </a>
     </div>
     <div style="max-width: 160px; text-align: center; margin: 10px;">
+        <a href="https://sylvchev.github.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+        <img src="https://eeg2025.github.io/assets/people/sylvain.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Sylvain Chevallier" />
+        <div style="font-weight: bold; margin-top: 10px;">Sylvain Chevallier</div>
+        <div style="font-size: 0.95em;">LISN, INRIA TAU, CNRS, A&O Univ. Paris-Saclay</div>
+    </div>
+    <div style="max-width: 160px; text-align: center; margin: 10px;">
+          <a href="https://neuromechanist.github.io" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
         <img src="https://eeg2025.github.io/assets/people/seyed.jpeg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Seyed Yahya Shirazi" />
         <div style="font-weight: bold; margin-top: 10px;">Seyed Yahya Shirazi</div>
         <div style="font-size: 0.95em;">UC San Diego</div>
     </div>
     <div style="max-width: 160px; text-align: center; margin: 10px;">
+          <a href="https://arnauddelorme.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
         <img src="https://eeg2025.github.io/assets/people/arnaud.jpg" style="height: 100%; max-height: 135px; border-radius: 8px;" alt="Arnaud Delorme" />
         <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
         <div style="font-size: 0.95em;">CNRS, IONS, UCSD</div>
     </div>
+</div>
+
+
+
+## Coordinators
+<div style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px;">
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/alexandre_franco.png" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Alexandre R. Franco" />
+    <div style="font-weight: bold; margin-top: 10px;">Alexandre R. Franco</div>
+    <div style="font-size: 0.95em;">Child Mind Institute, USA</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/amit_majumdar.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Amit Majumdar" />
+    <div style="font-weight: bold; margin-top: 10px;">Amit Majumdar</div>
+    <div style="font-size: 0.95em;">UC San Diego, USA</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/aviv.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Aviv Dotan" />
+    <div style="font-weight: bold; margin-top: 10px;">Aviv Dotan</div>
+    <div style="font-size: 0.95em;">Ben-Gurion University of the Negev, Israel</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/dung.jpeg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Dung Truong" />
+    <div style="font-weight: bold; margin-top: 10px;">Dung Truong</div>
+    <div style="font-size: 0.95em;">ex-SCCN, UC San Diego, USA</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/evans_alan.png" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Alan Evans" />
+    <div style="font-weight: bold; margin-top: 10px;">Alan Evans</div>
+    <div style="font-size: 0.95em;">McGill University, Canada</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/gramfort.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Alexandre Gramfort" />
+    <div style="font-weight: bold; margin-top: 10px;">Alexandre Gramfort</div>
+    <div style="font-size: 0.95em;">Reality Labs, Meta, France</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/isabelle.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Isabelle Guyon" />
+    <div style="font-weight: bold; margin-top: 10px;">Isabelle Guyon</div>
+    <div style="font-size: 0.95em;">Google DeepMind; ChaLearn, USA</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/king.png" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Jean-Remi King" />
+    <div style="font-weight: bold; margin-top: 10px;">Jean-Remi King</div>
+    <div style="font-size: 0.95em;">FAIR Brain &amp; AI, Meta, France</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/marie_constance_corsi.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Marie-Constance Corsi" />
+    <div style="font-weight: bold; margin-top: 10px;">Marie-Constance Corsi</div>
+    <div style="font-size: 0.95em;">Inria NERV; Paris Brain Institute (ICM), France</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/milham.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Michael P. Milham" />
+    <div style="font-weight: bold; margin-top: 10px;">Michael P. Milham</div>
+    <div style="font-size: 0.95em;">Child Mind Institute, USA</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/oren.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Oren Shriki" />
+    <div style="font-weight: bold; margin-top: 10px;">Oren Shriki</div>
+    <div style="font-size: 0.95em;">Ben-Gurion University of the Negev, Israel</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/pedro_valdes_sosa.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Pedro A. Valdés-Sosa" />
+    <div style="font-weight: bold; margin-top: 10px;">Pedro A. Valdés-Sosa</div>
+    <div style="font-size: 0.95em;">Cuban Neuroscience Center (CNEURO); Joint China-Cuba Lab (UESTC)</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/scott_makeig.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Scott Makeig" />
+    <div style="font-weight: bold; margin-top: 10px;">Scott Makeig</div>
+    <div style="font-size: 0.95em;">SCCN; Institute for Neural Computation, UC San Diego, USA</div>
+  </div>
+
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/terrence_sejnowski.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Terrence J. Sejnowski" />
+    <div style="font-weight: bold; margin-top: 10px;">Terrence J. Sejnowski</div>
+    <div style="font-size: 0.95em;">UC San Diego; Salk Institute, USA</div>
+  </div>
+
 </div>
