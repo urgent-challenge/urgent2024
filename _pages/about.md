@@ -211,12 +211,6 @@ This competition aims to address these challenges by:
   </div>
 
   <div style="max-width: 160px; text-align: center; margin: 10px;">
-    <img src="https://eeg2025.github.io/assets/people-h180/isabelle.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Isabelle Guyon" />
-    <div style="font-weight: bold; margin-top: 10px;">Isabelle Guyon</div>
-    <div style="font-size: 0.95em;">Google DeepMind; ChaLearn, USA</div>
-  </div>
-
-  <div style="max-width: 160px; text-align: center; margin: 10px;">
     <img src="https://eeg2025.github.io/assets/people-h180/marie_constance_corsi.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Marie-Constance Corsi" />
     <div style="font-weight: bold; margin-top: 10px;">Marie-Constance Corsi</div>
     <div style="font-size: 0.95em;">Inria NERV; Paris Brain Institute (ICM), France</div>
@@ -257,4 +251,10 @@ This competition aims to address these challenges by:
     <div style="font-size: 0.95em;">UC San Diego; Salk Institute, USA</div>
   </div>
 
+  <div style="max-width: 160px; text-align: center; margin: 10px;">
+    <img src="https://eeg2025.github.io/assets/people-h180/isabelle.jpg" style="height: 100%; max-height: 180px; border-radius: 8px;" alt="Isabelle Guyon" />
+    <div style="font-weight: bold; margin-top: 10px;">Isabelle Guyon</div>
+    <div style="font-size: 0.95em;">Google DeepMind; ChaLearn, USA</div>
+  </div>
+  
 </div>
