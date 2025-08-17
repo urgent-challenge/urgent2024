@@ -118,7 +118,7 @@ This competition aims to address these challenges by:
     <img src="https://eeg2025.github.io/assets/logos/ben_logo.png" style="max-width: 30%; margin: 10px;" alt="Ben-Gurion University of the Negev Logo" />
     <img src="https://eeg2025.github.io/assets/logos/ufabc.png" style="max-width: 30%; margin: 10px;" alt="Federal University of ABC (UFABC) Logo" />
   </div>
-<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+  <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
     <img src="https://eeg2025.github.io/assets/logos/cneuro.jpg" style="max-width: 10%; margin: 10px;" alt="Cuban Neuroscience Center (CNEURO) Logo" />
     <img src="https://eeg2025.github.io/assets/logos/UESTC.png" style="max-width: 30%; margin: 10px;" alt="University of Electronic Science and Technology of China Logo" />
     <img src="https://eeg2025.github.io/assets/logos/cnrs.png" style="max-width: 10%; margin: 10px;" alt="CNRS Centre National de la Recherche Scientifique Logo" />
@@ -163,6 +163,7 @@ This competition aims to address these challenges by:
         <div style="font-weight: bold; margin-top: 10px;">Arnaud Delorme</div>
         <div style="font-size: 0.95em;">CNRS, IONS, UCSD</div>
     </div>
+
 </div>
 
 
