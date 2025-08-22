@@ -18,23 +18,17 @@ bibliography: data.bib
     - [Bifactor Model and Advantages](#bifactor-model-and-advantages)
     - [Demographic Information](#demographic-information)
 - [Downloading the Data](#downloading-the-data)
-  - [Mini Releases (for initial exploration)](#mini-releases-for-initial-exploration)
-  - [NEMAR.org](#nemarorg)
-    - [Option 1: NEMAR.org direct download](#option-1-nemarorg-direct-download)
-    - [Option 2: EEGDash API](#option-2-eegdash-api)
-  - [OpenNeuro and its API](#openneuro-and-its-api)
-    - [Option 3: OpenNeuro direct download](#option-3-openneuro-direct-download)
-    - [Option 4 and 5: OpenNeuro API](#option-4-and-5-openneuro-api)
-  - [Amazon S3](#amazon-s3)
-    - [Option 6: Amazon S3 raw signals](#option-6-amazon-s3-raw-signals)
-    - [Option 7: Amazon S3 signals resampled at 100Hz](#option-7-amazon-s3-signals-resampled-at-100hz)
+  - [Release Names](#release-names)
+  - [AWS S3](#aws-s3)
+  - [Google Drive](#google-drive)
+  - [Original Data](#original-data)
 - [Reference](#reference)
 
 ## Data description
 
 The competition dataset includes EEG recordings from over 3,000 participants across six distinct cognitive tasks, divided into passive and active categories (see table below). Each participant's data is accompanied by four psychopathology dimensions (internalizing, externalizing, attention, and p-factor) derived from a bifactor model of parent-reported questionnaire responses to the Child Behavior Checklist (CBCL). These psychopathology factors represent orthogonal dimensions of mental health and serve as target variables for the regression component of the competition.
 
-**Note:** All datasets are in the BIDS **RAW** format and are not pre-processed (except for the 100Hz resampled datasets, where the singals are first filtered to the 0.5-50 Hz range and then resampled at 100 Hz). Preprocessing is part of the competition. Teams are encouraged to use lightweight preprocessing methods (and if possible, GPU-accelerated methods) to save time and resources during the competition.
+**Note:** After extensive work on the start kit and benchmarking several pipelines, the organizers have decided limit the competition to downsampled datasets. All datasets have been already downsampled and are available below. If you want to use the original, high-frequency data, please refer to the [HBN Data Page](https://neuromechanist.github.io/data/hbn/). Further, the competition will use the EEG data in the *BDF* data format rather than the original *SET* format to ease partial/lazy data loading. All downsampled datasets are available in both data formats from AWS S3.
 
 More details about the **dataset download links**, task-specific procedures, video recordings of the experiment, and more can be found on **[the HBN-EEG dataset page](https://neuromechanist.github.io/data/hbn/)**.
 
@@ -93,126 +87,29 @@ Demographic variables available in the dataset include **age**, **sex** (male/fe
 
 ## Downloading the Data
 
-The public part of the competition dataset contains 11 public releases, each between 91 and 245 GB. 
-To facilitate downloading this large amount of data, we provide multiple different solutions, such that all setups and personal preferences are accommodated.
-If you encounter difficulties downloading the data with one solution, we suggest you try using another one before filing an issue.
+The HBN-EEG dataset is available in multiple formats and through various platforms to facilitate access and usability. The dataset is divided into several releases, each containing data from a specific number of subjects and tasks. No subject is repeated across releases.
 
-In addition, we provide **mini releases** that can be used for preliminary exploration of the data.
+We are using only the downsampled versions of the dataset for the competition. Datasets were downsampled to 100Hz after filtering the signals to the 0.5-50 Hz range. The datasets are available in both BDF and SET formats. Our submission start kit uses the BDF format to facilitate data loading and processing. However, you should not see any difference in data loading using known packages such as EEGLAB and MNE-Python because all datasets are still BIDS-compatible and can be loaded using the same functions.
 
-Finally, we also provide **resampled releases** where the signals have been resampled at 100Hz to facilitate download (see Amazon S3).
+**There are four main types of dataset releases**: (Mini or Full) x (BDF or SET). Mini releases (20 subjects per release) are intended for initial exploration during the initial warm up phase. Full releases contain the complete dataset for each task and are intended for use during the main competition phase.
 
-### Mini Releases (for initial exploration)
-We provide a *mini release* for each release, that can be used for preliminary exploration of the data. 
-Each mini release contains only 20 subjects, and represents approximately 15 GB of data.
-These mini releases are available both as zip files and as Google Drive folders. 
+### Release Names
+We used a consistent naming convention for the dataset releases as `R{release_number}_L100_(mini)_(bdf)`, where `release_number` is the release number (1,.., 11), `mini` (if present) indicates whether it is a mini release, and `bdf` (if present) indicates the `bdf` file format.
 
-The download links for the mini releases are available on the [dataset page](https://neuromechanist.github.io/data/hbn/).
+### AWS S3
+All four types of dataset releases are also available on AWS S3 under `s3://nmdatasets/NeurIPS2025/`. You can use the AWS CLI or rsync to download the data.
 
-### NEMAR.org
-The releases are hosted on NEMAR. The releases 1-11 have the following names on NEMAR: 
-
-```
-ds005505
-ds005506
-ds005507
-ds005508
-ds005509
-ds005510
-ds005511
-ds005512
-ds005514
-ds005515
-ds005516
-```
-
-#### Option 1: NEMAR.org direct download
-Each release can be downloaded as a single Zip file using a direct download link. For example the link to the download page of the first release is:
-
-```
-https://nemar.org/dataexplorer/detail?dataset_id=ds005505
-```
-
-#### Option 2: EEGDash API
-The [EEGDash](https://github.com/sccn/EEGDash) python API allows you to download the data programmatically. 
-For example, to download the first release, you can use the following code snippet:
-```python
-from eegdash import EEGDashDataset
-
-dataset = EEGDashDataset({
-    "dataset": "ds005505", 
-    # "subject": "NDARAG340ERT",          # to download a specific subject
-    # "task": "contrastChangeDetection",  # or a specific task
-    # "run": 1,                           # or a specific run
-})
-```
-
-### OpenNeuro and its API
-The releases are also hosted on OpenNeuro. They have the same names as on NEMAR.org.
-
-#### Option 3: OpenNeuro direct download
-On OpenNeuro, the releases can also be downloaded using direct download links. For example the link to the download page of the first release is:
-
-```
-https://openneuro.org/datasets/ds005505
-```
-
-#### Option 4 and 5: OpenNeuro API
-
-The [openneuro-py](https://pypi.org/project/openneuro-py/) library offers both a python API and a command line interface to download the data programmatically.
-
-**Python API:**
-```python
-import openneuro
-
-openneuro.download(dataset="ds005505")
-```
-
-**Command line interface:**
+Example:
 ```bash
-openneuro-py download --dataset=ds005505
+aws s3 cp --recursive s3://nmdatasets/NeurIPS25/R1_mini_L100_bdf ./local_directory --no-sign-request
 ```
+This command will download the specified mini release R1 with the BDF format from the AWS S3 bucket to your local directory without requiring AWS credentials.
 
+### Google Drive
+The mini releases, both BDF and SET formats, are also available on Google Drive. You can download them directly from the [HBN Data Page](https://neuromechanist.github.io/data/hbn/).
 
-### Amazon S3
-
-Finally, the releases are also hosted on Amazon S3. 
-Having installed the [`AWS CLI`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you can download a dataset using this command: `aws s3 cp <s3_uri> <local_path> --recursive --no-sign-request`, where the `<s3_uri>` can be any of the s3 addresses bellow.
-
-For more details on how to download data from Amazon S3, please refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/download-objects.html) or use the AWS CLI tool.
-
-#### Option 6: Amazon S3 raw signals
-The original (raw signals) releases can be found at the following S3 buckets:
-```
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R1/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R2/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R3/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R4/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R5/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R6/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R7/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R8/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R9/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R10/
-s3://fcp-indi/data/Projects/HBN/BIDS_EEG/cmi_bids_R11/
-```
-
-#### Option 7: Amazon S3 signals resampled at 100Hz
-Finally, to facilitate downloads, we also provide the releases with the signals resampled at 100Hz. The resampling is done by filtering the signals to the 0.5-50 Hz range and then resampling at 100 Hz.
-
-These resampled releases can be found at the following S3 buckets:
-```
-s3://nmdatasets/NeurIPS25/R1_L100/
-s3://nmdatasets/NeurIPS25/R2_L100/
-s3://nmdatasets/NeurIPS25/R3_L100/
-s3://nmdatasets/NeurIPS25/R4_L100/
-s3://nmdatasets/NeurIPS25/R5_L100/
-s3://nmdatasets/NeurIPS25/R6_L100/
-s3://nmdatasets/NeurIPS25/R7_L100/
-s3://nmdatasets/NeurIPS25/R8_L100/
-s3://nmdatasets/NeurIPS25/R9_L100/
-s3://nmdatasets/NeurIPS25/R10_L100/
-s3://nmdatasets/NeurIPS25/R11_L100/
-```
+### Original Data
+If you need access to the original data, please visit the [HBN Data Page](https://neuromechanist.github.io/data/hbn/) or search for `HBN-EEG` on [Nemar](https://nemar.org).
 
 ## Reference
 
