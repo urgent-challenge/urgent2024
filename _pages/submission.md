@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Competition Status
 
-**Update:** The competition is now **Open! 🎉**. Please go to the [Codabench page](https://www.codabench.org/competitions/9975/) to register and get started.
+**Update:** The competition is now **Open to registration! 🎉**. Please go to the [Codabench page](https://www.codabench.org/competitions/9975/) to register and get started.
 
 **Note:** You cannot submit code yet! We will release the starter kit in the next few days.
 
