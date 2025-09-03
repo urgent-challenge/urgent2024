@@ -14,7 +14,7 @@ This page lists the papers related to the URGENT 2024 Challenge or those experim
 
 2. [**2025-06**] Wangyou Zhang, Kohei Saijo, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Wei Wang, Yihui Fu, Shinji Watanabe, Tim Fingscheidt, and Qian Yanmin, “[Lessons Learned from the URGENT 2024 Speech Enhancement Challenge](https://www.isca-archive.org/interspeech_2025/zhang25j_interspeech.html),” in Proc. ISCA Interspeech, 2025, pp. 853–857.
     > Initial analysis of the URGENT 2024 Challenge outcomes, focusing on the data and evaluation metric design.
-    > * [Slides](/assets/files/Slides_URGENT2024_Lessons.pdf)
+    > * [Slides](/urgent2024/assets/files/Slides_URGENT2024_Lessons.pdf)
     > * [GitHub Repo](https://github.com/urgent-challenge/urgent2024_analysis)
 
 3. [**2025-??**] Wangyou Zhang, Kohei Saijo, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Marvin Sach, Wei Wang, Yihui Fu,Xiaohuai Le, Zhihang Sun, Xiaobin Rong, Rong Chao, Shinji Watanabe, Tim Fingscheidt, and Yanmin Qian, “Datasets and Learnings in the 2024 URGENT Speech Enhancement Challenge,” Submitted to NeurIPS 2025.
